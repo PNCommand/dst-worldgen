@@ -7,6 +7,7 @@ declare -r script_zip_path='/home/tide/Desktop/backup/scripts.zip'
 declare -r script_dir='/tmp/scripts'
 declare -r work_dir='/tmp/worldgen-parser'
 declare -r repo_root=$(cd $(dirname $0); pwd)
+declare -r output_dir="$repo_root/output"
 
 function prepare() {
   if [[ -e $script_dir ]]; then
@@ -48,4 +49,5 @@ prepare
 cd $work_dir
 lua ./parse.lua
 
-mv *.json $repo_root
+if [[ ! -e $output_dir ]]; then mkdir $output_dir; fi
+mv *.json $output_dir

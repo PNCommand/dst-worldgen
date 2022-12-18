@@ -1,0 +1,393 @@
+{
+  "global": {
+    "display": "グローバル",
+    "settings": {
+      "season_start": {
+        "display": "最初の季節",
+        "default-value": "default",
+        "options": ["default", "winter", "spring", "summer", "autumn|spring", "winter|summer", "autumn|winter|spring|summer"],
+        "display-opts": ["秋", "冬", "春", "夏", "秋か春", "冬または夏", "ランダム"]
+      }
+    }
+  },
+  "misc": {
+    "display": "世界",
+    "settings": {
+      "roads": {
+        "display": "道",
+        "default-value": "default",
+        "options": ["never", "default"],
+        "display-opts": ["なし", "デフォルト"]
+      },
+      "world_size": {
+        "display": "ワールドのサイズ",
+        "default-value": "default",
+        "options": ["small", "medium", "default", "huge"],
+        "display-opts": ["ちっぽけな", "ミディアム", "大きい", "巨大"]
+      },
+      "terrariumchest": {
+        "display": "テラリウム",
+        "default-value": "default",
+        "options": ["never", "default"],
+        "display-opts": ["なし", "デフォルト"]
+      },
+      "stageplays": {
+        "display": "舞台劇",
+        "default-value": "default",
+        "options": ["never", "default"],
+        "display-opts": ["なし", "デフォルト"]
+      },
+      "boons": {
+        "display": "倒れた冒険者",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "moon_fissure": {
+        "display": "天体の亀裂",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "prefabswaps_start": {
+        "display": "スタート時の素材の種類",
+        "default-value": "default",
+        "options": ["classic", "default", "highly random"],
+        "display-opts": ["クラシック", "デフォルト", "かなりランダム"]
+      },
+      "start_location": {
+        "display": "産卵領域",
+        "default-value": "default",
+        "options": ["darkness", "plus", "default"],
+        "display-opts": ["暗い", "準備万端", "デフォルト"]
+      },
+      "touchstone": {
+        "display": "死に戻りの標",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "task_set": {
+        "display": "生物",
+        "default-value": "default",
+        "options": ["classic", "default"],
+        "display-opts": ["クラシック", "Together"]
+      },
+      "branching": {
+        "display": "枝",
+        "default-value": "default",
+        "options": ["never", "least", "default", "most", "random"],
+        "display-opts": ["ありえない", "一番少ない", "デフォルト", "一番", "ランダム"]
+      },
+      "loop": {
+        "display": "ループ",
+        "default-value": "default",
+        "options": ["never", "default", "always"],
+        "display-opts": ["ありえない", "デフォルト", "いつも"]
+      }
+    }
+  },
+  "resources": {
+    "display": "資源",
+    "settings": {
+      "rock_ice": {
+        "display": "氷河片",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "moon_tree": {
+        "display": "三日月の木",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "moon_berrybush": {
+        "display": "石フルーツの茂み",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "reeds": {
+        "display": "アシ",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "cactus": {
+        "display": "サボテン",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "tumbleweed": {
+        "display": "回転草",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "palmconetree": {
+        "display": "パルムコーンの木",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "grass": {
+        "display": "草",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "flowers": {
+        "display": "花/イーブルフラワー",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "moon_rock": {
+        "display": "月の岩",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "rock": {
+        "display": "岩",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "meteorspawner": {
+        "display": "いん石墜落跡",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "carrot": {
+        "display": "ニンジン",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "ocean_bullkelp": {
+        "display": "ブル昆布",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "ocean_seastack": {
+        "display": "海食柱",
+        "default-value": "ocean_default",
+        "options": ["ocean_never", "ocean_rare", "ocean_uncommon", "ocean_default", "ocean_often", "ocean_mostly", "ocean_always", "ocean_insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "marshbush": {
+        "display": "トゲトゲの茂み",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "ponds": {
+        "display": "池",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "moon_bullkelp": {
+        "display": "ブル昆布の漂着",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "moon_hotspring": {
+        "display": "温泉",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "moon_starfish": {
+        "display": "アネネミー",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "moon_sapling": {
+        "display": "月の胞子",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "mushroom": {
+        "display": "キノコ",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "berrybush": {
+        "display": "木イチゴの低木",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "trees": {
+        "display": "木(全種類)",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "sapling": {
+        "display": "苗木",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "flint": {
+        "display": "フリント",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      }
+    }
+  },
+  "animals": {
+    "display": "生物とスポナー",
+    "settings": {
+      "lightninggoat": {
+        "display": "サンダーゴート",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "beefalo": {
+        "display": "ビーファロー",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "catcoon": {
+        "display": "空洞の切り株",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "moles": {
+        "display": "モグラの巣穴",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "ocean_wobsterden": {
+        "display": "ウォブスターマウンド",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "buzzard": {
+        "display": "ハゲタカ",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "pigs": {
+        "display": "ブタ屋敷",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "rabbits": {
+        "display": "ウサギの穴",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "bees": {
+        "display": "蜂の巣",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "moon_fruitdragon": {
+        "display": "サラマンダー",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "moon_carrot": {
+        "display": "キャラット",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "ocean_shoal": {
+        "display": "魚の群れ",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      }
+    }
+  },
+  "monsters": {
+    "display": "敵対生物とスポナー",
+    "settings": {
+      "spiders": {
+        "display": "クモの巣穴",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "tallbirds": {
+        "display": "アシナガ",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "angrybees": {
+        "display": "キラー蜂の巣",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "houndmound": {
+        "display": "ハウンドの巣",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "walrus": {
+        "display": "チウィーセの仮住まい",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "ocean_waterplant": {
+        "display": "海の雑草",
+        "default-value": "ocean_default",
+        "options": ["ocean_never", "ocean_rare", "ocean_uncommon", "ocean_default", "ocean_often", "ocean_mostly", "ocean_always", "ocean_insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "chess": {
+        "display": "ぜんまい仕掛けの駒",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "moon_spiders": {
+        "display": "壊されたクモの穴",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "tentacles": {
+        "display": "触手",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      "merm": {
+        "display": "雨漏り小屋",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      }
+    }
+  }
+}
