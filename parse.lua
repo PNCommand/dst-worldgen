@@ -7,6 +7,8 @@ require("strings")
 -- ---------- ---------- ---------- ---------- ---------- ---------- --
 -- Update global variable STRINGS
 
+local current_lang = "en"
+
 local function get_file_name(lang)
   if lang == "zh" then
     return "chinese_s.po"
@@ -92,6 +94,7 @@ local function join_po_file_multiline(fname)
 end
 
 local function parse_po_file_and_update_strings(lang)
+  current_lang = lang
   local file_path = "./languages/"..get_file_name(lang)
 
 	local current_id = ""
@@ -130,25 +133,41 @@ for key, data in pairs(C.WORLDGEN_GROUP) do
   order_list[data.order] = key
 end
 
-local function dump_setting_option(options)
-  local str = ""
-  for _, option in ipairs(options) do
-    str = str..option.text..":"..option.data..", "
+local function repack_setting_options(options)
+  local table = {
+    data = {},
+    display = {},
+  }
+  for index, option in ipairs(options) do
+    table.data[index] = option.data
+    table.display[index] = option.text
   end
-  return str
+  return table
 end
 
-for _, group_key in ipairs(order_list) do
-  local group_data = C.WORLDGEN_GROUP[group_key]
-  print(group_data.text)
+local json_prefix_lv1 = "  "
+local json_prefix_lv2 = "    "
+local json_prefix_lv3 = "      "
+local json_prefix_lv4 = "        "
+local output = io.open("result."..current_lang..".json", "w")
 
-  local prefix = "    "
+output:write("{\n")
+for order, group_key in ipairs(order_list) do
+  local group_data = C.WORLDGEN_GROUP[group_key]
+  output:write(json_prefix_lv1.."\""..group_key.."\": {\n")
+  output:write(json_prefix_lv2.."\"display\": \""..group_data.text.."\",\n")
+  output:write(json_prefix_lv2.."\"settings\": {\n")
+
+  local items_size = 0
+  for _, _ in pairs(group_data.items) do items_size = items_size + 1 end
+  local count = 0
+
   for setting_key, setting_data in pairs(group_data.items) do
+    count = count + 1
     local key_prefix = "STRINGS.UI.CUSTOMIZATIONSCREEN."
-    local display_name = get_value_from_strings(key_prefix..string.upper(setting_key))
-    print(prefix..display_name)
-    
+
     local id = setting_key
+    local display_name = get_value_from_strings(key_prefix..string.upper(setting_key))
     local default_value = setting_data.value
     local options = nil
     if setting_data.desc then
@@ -160,8 +179,26 @@ for _, group_key in ipairs(order_list) do
       options = options(setting_data.world[1])
     end
 
-    print(prefix..prefix.."ID: "..id)
-    print(prefix..prefix.."Default Value: "..default_value)
-    print(prefix..prefix.."Options: "..dump_setting_option(options))
+    local setting_table = repack_setting_options(options)
+    output:write(json_prefix_lv3.."\""..id.."\": {\n")
+    
+    output:write(json_prefix_lv4.."\"display\": \""..display_name.."\",\n")
+    output:write(json_prefix_lv4.."\"default-value\": \""..default_value.."\",\n")
+    output:write(json_prefix_lv4.."\"options\": [\""..table.concat(setting_table.data, "\", \"").."\"],\n")
+    output:write(json_prefix_lv4.."\"display-opts\": [\""..table.concat(setting_table.display, "\", \"").."\"]\n")
+
+    if count < items_size then
+      output:write(json_prefix_lv3.."},\n")
+    else
+      output:write(json_prefix_lv3.."}\n")
+    end
+  end
+
+  output:write(json_prefix_lv2.."}")
+  if order < #order_list then
+    output:write(json_prefix_lv1.."},\n")
+  else
+    output:write(json_prefix_lv1.."}\n")
   end
 end
+output:write("}\n")

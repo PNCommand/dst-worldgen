@@ -1,17 +1,21 @@
 #!/usr/bin/env bash
 set -eu
 
+# Spectify a path to scripts.zip of DST server
 declare -r script_zip_path='/home/tide/Desktop/backup/scripts.zip'
+
 declare -r script_dir='/tmp/scripts'
 declare -r work_dir='/tmp/worldgen-parser'
+declare -r repo_root=$(cd $(dirname $0); pwd)
 
 function prepare() {
-  if [[ -e /tmp/scripts ]]; then
-    echo '/tmp/scripts already exists.'
-  else
-    echo "unzip $script_zip_path to /tmp ..."
-    unzip -q -d /tmp $script_zip_path
+  if [[ -e $script_dir ]]; then
+    echo "$script_dir already exists."
+    return
   fi
+
+  echo "unzip $script_zip_path to /tmp ..."
+  unzip -q -d /tmp $script_zip_path
 
   if [[ -e $work_dir ]]; then rm -rf $work_dir; fi
   mkdir $work_dir
@@ -36,10 +40,12 @@ function prepare() {
   sed -i -e $start_line',$d' $work_dir/customize.lua
   sed -i -e '$a return { WORLDGEN_GROUP = WORLDGEN_GROUP, WORLDSETTINGS_GROUP = WORLDSETTINGS_GROUP }' $work_dir/customize.lua
 
-  cp ./*.lua $work_dir
+  cp $repo_root/*.lua $work_dir
 }
 
-# prepare
+prepare
 
 cd $work_dir
 lua ./parse.lua
+
+mv *.json $repo_root
