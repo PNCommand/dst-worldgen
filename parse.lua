@@ -1,24 +1,67 @@
 require("mock")
 require("utils")
 
+local current_lang = arg[1]
+local output_dir = arg[2].."/"..current_lang.."/"
+os.execute("mkdir -p "..output_dir)
+
+local supported_languages = {
+  "en", "zh-CN", "zh-TW", "fr",
+  "de", "it", "ja", "ko", "pl",
+  "pt", "ru", "es", "es-MX"
+}
+
+local function get_file_name(lang)
+  if lang == "zh-CN" then
+    return "chinese_s.po"
+  end
+  if lang == "zh-TW" then
+    return "chinese_t.po"
+  end
+  if lang == "fr" then
+    return "french.po"
+  end
+  if lang == "de" then
+    return "german.po"
+  end
+  if lang == "it" then
+    return "italian.po"
+  end
+  if lang == "ja" then
+    return "japanese.po"
+  end
+  if lang == "ko" then
+    return "korean.po"
+  end
+  if lang == "pl" then
+    return "polish.po"
+  end
+  if lang == "pt" then
+    return "portuguese_br.po"
+  end
+  if lang == "ru" then
+    return "russian.po"
+  end
+  if lang == "es" then
+    return "spanish.po"
+  end
+  if lang == "es-MX" then
+    return "spanish_mex.po"
+  end
+  return "unsupported_lang.po"
+end
+
+if Indexof(supported_languages, current_lang) == -1 then
+  print("Unsupported language: "..current_lang)
+  os.exit(1)
+end
+
 -- ---------- ---------- ---------- ---------- ---------- ---------- --
 -- Load global variable STRINGS
 require("strings")
 
 -- ---------- ---------- ---------- ---------- ---------- ---------- --
 -- Update global variable STRINGS
-
-local current_lang = "en"
-
-local function get_file_name(lang)
-  if lang == "zh" then
-    return "chinese_s.po"
-  end
-  if lang == "ja" then
-    return "japanese.po"
-  end
-  return "unsupported_lang.po"
-end
 
 local function get_value_from_strings(key)
   local list = Split(key, ".")
@@ -85,15 +128,17 @@ local function join_po_file_multiline(fname)
 	end
 end
 
-local function parse_po_file_and_update_strings(lang)
-  current_lang = lang
-  local file_path = "./languages/"..get_file_name(lang)
+local function parse_po_file_and_update_strings()
+  if current_lang == "en" then
+    return
+  end
+  local file_path = "./languages/"..get_file_name(current_lang)
 
 	local current_id = ""
 	local localized_en = ""
 
   for line in join_po_file_multiline(file_path) do
-    
+
     if current_id == "" then
 			local _, _, id = string.find(line, "^msgctxt%s*\"(%S*)\"")
       if id then current_id = id end
@@ -112,7 +157,7 @@ local function parse_po_file_and_update_strings(lang)
   end
 end
 
-parse_po_file_and_update_strings("zh")
+parse_po_file_and_update_strings()
 
 -- ---------- ---------- ---------- ---------- ---------- ---------- --
 
@@ -156,7 +201,7 @@ local function output_json(is_gen, world_type)
     file_name = file_name..".set."
     order_list = set_order_list
   end
-  file_name = file_name..current_lang..".json"
+  file_name = output_dir..file_name..current_lang..".json"
   print("New JSON File: "..file_name)
   local output = io.open(file_name, "w")
 

@@ -13,11 +13,11 @@
   "misc": {
     "display": "World",
     "settings": {
-      "world_size": {
-        "display": "World Size",
+      "start_location": {
+        "display": "Spawn Area",
         "default-value": "default",
-        "options": ["small", "medium", "default", "huge"],
-        "display-opts": ["Small", "Medium", "Large", "Huge"]
+        "options": ["default", "plus", "darkness"],
+        "display-opts": ["Default", "Plus", "Dark"]
       },
       "cavelight": {
         "display": "Sinkhole Lights",
@@ -25,14 +25,20 @@
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
         "display-opts": ["None", "Very Slow", "Slow", "Default", "Fast", "Very Fast"]
       },
+      "task_set": {
+        "display": "Biomes",
+        "default-value": "default",
+        "options": ["default", "classic"],
+        "display-opts": ["Together", "Classic"]
+      },
+      "world_size": {
+        "display": "World Size",
+        "default-value": "default",
+        "options": ["small", "medium", "default", "huge"],
+        "display-opts": ["Small", "Medium", "Large", "Huge"]
+      },
       "boons": {
         "display": "Failed Survivors",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
-      "touchstone": {
-        "display": "Touch Stones",
         "default-value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
@@ -43,59 +49,29 @@
         "options": ["classic", "default", "highly random"],
         "display-opts": ["Classic", "Default", "Highly Random"]
       },
-      "loop": {
-        "display": "Loops",
+      "touchstone": {
+        "display": "Touch Stones",
         "default-value": "default",
-        "options": ["never", "default", "always"],
-        "display-opts": ["Never", "Default", "Always"]
-      },
-      "task_set": {
-        "display": "Biomes",
-        "default-value": "default",
-        "options": ["default", "classic"],
-        "display-opts": ["Together", "Classic"]
-      },
-      "start_location": {
-        "display": "Spawn Area",
-        "default-value": "default",
-        "options": ["default", "plus", "darkness"],
-        "display-opts": ["Default", "Plus", "Dark"]
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       "branching": {
         "display": "Branches",
         "default-value": "default",
         "options": ["never", "least", "default", "most", "random"],
         "display-opts": ["Never", "Least", "Default", "Most", "Random"]
+      },
+      "loop": {
+        "display": "Loops",
+        "default-value": "default",
+        "options": ["never", "default", "always"],
+        "display-opts": ["Never", "Default", "Always"]
       }
     }
   },
   "resources": {
     "display": "Resources",
     "settings": {
-      "lichen": {
-        "display": "Lichen",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
-      "trees": {
-        "display": "Trees (All)",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
-      "flower_cave": {
-        "display": "Light Flowers",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
-      "marshbush": {
-        "display": "Spiky Bushes",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
       "wormlights": {
         "display": "Glow Berries",
         "default-value": "default",
@@ -108,14 +84,62 @@
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
+      "sapling": {
+        "display": "Saplings",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
+      "rock": {
+        "display": "Boulders",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
       "grass": {
         "display": "Grass",
         "default-value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
+      "trees": {
+        "display": "Trees (All)",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
+      "fern": {
+        "display": "Cave Ferns",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
+      "cave_ponds": {
+        "display": "Ponds",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
+      "marshbush": {
+        "display": "Spiky Bushes",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
       "reeds": {
         "display": "Reeds",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
+      "lichen": {
+        "display": "Lichen",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
+      "flint": {
+        "display": "Flint",
         "default-value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
@@ -132,14 +156,8 @@
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
-      "cave_ponds": {
-        "display": "Ponds",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
-      "fern": {
-        "display": "Cave Ferns",
+      "flower_cave": {
+        "display": "Light Flowers",
         "default-value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
@@ -149,32 +167,20 @@
         "default-value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
-      "flint": {
-        "display": "Flint",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
-      "rock": {
-        "display": "Boulders",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
-      "sapling": {
-        "display": "Saplings",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       }
     }
   },
   "animals": {
     "display": "Creatures and Spawners",
     "settings": {
-      "monkey": {
-        "display": "Splumonkey Pods",
+      "slurtles": {
+        "display": "Slurtle Mounds",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
+      "rocky": {
+        "display": "Rock Lobsters",
         "default-value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
@@ -185,8 +191,8 @@
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
-      "slurtles": {
-        "display": "Slurtle Mounds",
+      "monkey": {
+        "display": "Splumonkey Pods",
         "default-value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
@@ -196,32 +202,14 @@
         "default-value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
-      "rocky": {
-        "display": "Rock Lobsters",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       }
     }
   },
   "monsters": {
     "display": "Hostile Creatures and Spawners",
     "settings": {
-      "fissure": {
-        "display": "Nightmare Fissures",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
       "spiders": {
         "display": "Spider Dens",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
-      "tentacles": {
-        "display": "Tentacles",
         "default-value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
@@ -232,20 +220,32 @@
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
-      "chess": {
-        "display": "Clockworks",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
       "cave_spiders": {
         "display": "Spilagmites",
         "default-value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
+      "tentacles": {
+        "display": "Tentacles",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
       "worms": {
         "display": "Cave Worms",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
+      "fissure": {
+        "display": "Nightmare Fissures",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
+      "chess": {
+        "display": "Clockworks",
         "default-value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]

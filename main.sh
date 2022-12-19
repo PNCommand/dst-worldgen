@@ -2,7 +2,8 @@
 set -eu
 
 # Spectify a path to scripts.zip of DST server
-declare -r script_zip_path='/home/tide/Desktop/backup/scripts.zip'
+declare -r script_zip_path="$1"
+declare -r lang="$2"
 
 declare -r script_dir='/tmp/scripts'
 declare -r work_dir='/tmp/worldgen-parser'
@@ -12,11 +13,10 @@ declare -r output_dir="$repo_root/output"
 function prepare() {
   if [[ -e $script_dir ]]; then
     echo "$script_dir already exists."
-    return
+  else
+    echo "Unzip $script_zip_path to /tmp ..."
+    unzip -q -d /tmp $script_zip_path
   fi
-
-  echo "unzip $script_zip_path to /tmp ..."
-  unzip -q -d /tmp $script_zip_path
 
   if [[ -e $work_dir ]]; then rm -rf $work_dir; fi
   mkdir $work_dir
@@ -44,10 +44,12 @@ function prepare() {
   cp $repo_root/*.lua $work_dir
 }
 
+if [[ ! -e $script_zip_path ]]; then
+  echo "Zip file not found: $script_zip_path"
+  exit 1
+fi
+
 prepare
 
 cd $work_dir
-lua ./parse.lua
-
-if [[ ! -e $output_dir ]]; then mkdir $output_dir; fi
-mv *.json $output_dir
+lua ./parse.lua $lang $output_dir

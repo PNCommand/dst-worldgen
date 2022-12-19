@@ -13,20 +13,44 @@
   "misc": {
     "display": "World",
     "settings": {
+      "start_location": {
+        "display": "Spawn Area",
+        "default-value": "default",
+        "options": ["default", "plus", "darkness"],
+        "display-opts": ["Default", "Plus", "Dark"]
+      },
+      "moon_fissure": {
+        "display": "Celestial Fissures",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
+      "terrariumchest": {
+        "display": "Terrarium",
+        "default-value": "default",
+        "options": ["never", "default"],
+        "display-opts": ["None", "Default"]
+      },
+      "task_set": {
+        "display": "Biomes",
+        "default-value": "default",
+        "options": ["default", "classic"],
+        "display-opts": ["Together", "Classic"]
+      },
       "world_size": {
         "display": "World Size",
         "default-value": "default",
         "options": ["small", "medium", "default", "huge"],
         "display-opts": ["Small", "Medium", "Large", "Huge"]
       },
+      "stageplays": {
+        "display": "Stage Plays",
+        "default-value": "default",
+        "options": ["never", "default"],
+        "display-opts": ["None", "Default"]
+      },
       "boons": {
         "display": "Failed Survivors",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
-      "touchstone": {
-        "display": "Touch Stones",
         "default-value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
@@ -37,35 +61,11 @@
         "options": ["classic", "default", "highly random"],
         "display-opts": ["Classic", "Default", "Highly Random"]
       },
-      "loop": {
-        "display": "Loops",
+      "touchstone": {
+        "display": "Touch Stones",
         "default-value": "default",
-        "options": ["never", "default", "always"],
-        "display-opts": ["Never", "Default", "Always"]
-      },
-      "task_set": {
-        "display": "Biomes",
-        "default-value": "default",
-        "options": ["default", "classic"],
-        "display-opts": ["Together", "Classic"]
-      },
-      "terrariumchest": {
-        "display": "Terrarium",
-        "default-value": "default",
-        "options": ["never", "default"],
-        "display-opts": ["None", "Default"]
-      },
-      "start_location": {
-        "display": "Spawn Area",
-        "default-value": "default",
-        "options": ["default", "plus", "darkness"],
-        "display-opts": ["Default", "Plus", "Dark"]
-      },
-      "stageplays": {
-        "display": "Stage Plays",
-        "default-value": "default",
-        "options": ["never", "default"],
-        "display-opts": ["None", "Default"]
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       "branching": {
         "display": "Branches",
@@ -73,109 +73,25 @@
         "options": ["never", "least", "default", "most", "random"],
         "display-opts": ["Never", "Least", "Default", "Most", "Random"]
       },
+      "loop": {
+        "display": "Loops",
+        "default-value": "default",
+        "options": ["never", "default", "always"],
+        "display-opts": ["Never", "Default", "Always"]
+      },
       "roads": {
         "display": "Roads",
         "default-value": "default",
         "options": ["never", "default"],
         "display-opts": ["None", "Default"]
-      },
-      "moon_fissure": {
-        "display": "Celestial Fissures",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       }
     }
   },
   "resources": {
     "display": "Resources",
     "settings": {
-      "moon_sapling": {
-        "display": "Lunar Saplings",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
-      "cactus": {
-        "display": "Cacti",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
-      "trees": {
-        "display": "Trees (All)",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
-      "palmconetree": {
-        "display": "Palmcone Tree",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
-      "marshbush": {
-        "display": "Spiky Bushes",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
-      "rock_ice": {
-        "display": "Mini Glaciers",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
-      "carrot": {
-        "display": "Carrots",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
       "moon_hotspring": {
         "display": "Hot Springs",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
-      "grass": {
-        "display": "Grass",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
-      "tumbleweed": {
-        "display": "Tumbleweeds",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
-      "reeds": {
-        "display": "Reeds",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
-      "mushroom": {
-        "display": "Mushrooms",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
-      "ocean_bullkelp": {
-        "display": "Bull Kelp",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
-      "berrybush": {
-        "display": "Berry Bushes",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
-      "ponds": {
-        "display": "Ponds",
         "default-value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
@@ -186,20 +102,14 @@
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
-      "moon_bullkelp": {
-        "display": "Beached Bull Kelp",
+      "meteorspawner": {
+        "display": "Meteor Fields",
         "default-value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
-      "moon_starfish": {
-        "display": "Anenemies",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
-      "moon_rock": {
-        "display": "Lunar Rocks",
+      "cactus": {
+        "display": "Cacti",
         "default-value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
@@ -210,26 +120,14 @@
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
-      "ocean_seastack": {
-        "display": "Sea Stacks",
-        "default-value": "ocean_default",
-        "options": ["ocean_never", "ocean_rare", "ocean_uncommon", "ocean_default", "ocean_often", "ocean_mostly", "ocean_always", "ocean_insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
-      "moon_tree": {
-        "display": "Lune Trees",
+      "moon_starfish": {
+        "display": "Anenemies",
         "default-value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
-      "flint": {
-        "display": "Flint",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
-      "meteorspawner": {
-        "display": "Meteor Fields",
+      "sapling": {
+        "display": "Saplings",
         "default-value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
@@ -240,8 +138,110 @@
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
-      "sapling": {
-        "display": "Saplings",
+      "grass": {
+        "display": "Grass",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
+      "ponds": {
+        "display": "Ponds",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
+      "rock_ice": {
+        "display": "Mini Glaciers",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
+      "trees": {
+        "display": "Trees (All)",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
+      "tumbleweed": {
+        "display": "Tumbleweeds",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
+      "marshbush": {
+        "display": "Spiky Bushes",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
+      "ocean_seastack": {
+        "display": "Sea Stacks",
+        "default-value": "ocean_default",
+        "options": ["ocean_never", "ocean_rare", "ocean_uncommon", "ocean_default", "ocean_often", "ocean_mostly", "ocean_always", "ocean_insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
+      "reeds": {
+        "display": "Reeds",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
+      "flint": {
+        "display": "Flint",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
+      "palmconetree": {
+        "display": "Palmcone Tree",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
+      "ocean_bullkelp": {
+        "display": "Bull Kelp",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
+      "moon_bullkelp": {
+        "display": "Beached Bull Kelp",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
+      "moon_rock": {
+        "display": "Lunar Rocks",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
+      "moon_sapling": {
+        "display": "Lunar Saplings",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
+      "mushroom": {
+        "display": "Mushrooms",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
+      "moon_tree": {
+        "display": "Lune Trees",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
+      "carrot": {
+        "display": "Carrots",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
+      "berrybush": {
+        "display": "Berry Bushes",
         "default-value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
@@ -251,8 +251,20 @@
   "animals": {
     "display": "Creatures and Spawners",
     "settings": {
-      "bees": {
-        "display": "Bee Hives",
+      "rabbits": {
+        "display": "Rabbit Holes",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
+      "lightninggoat": {
+        "display": "Volt Goats",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
+      "moon_fruitdragon": {
+        "display": "Saladmander",
         "default-value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
@@ -269,26 +281,8 @@
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
-      "ocean_shoal": {
-        "display": "Shoals",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
-      "beefalo": {
-        "display": "Beefalos",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
-      "ocean_wobsterden": {
-        "display": "Wobster Mounds",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
-      "rabbits": {
-        "display": "Rabbit Holes",
+      "buzzard": {
+        "display": "Buzzards",
         "default-value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
@@ -299,8 +293,8 @@
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
-      "buzzard": {
-        "display": "Buzzards",
+      "ocean_wobsterden": {
+        "display": "Wobster Mounds",
         "default-value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
@@ -311,14 +305,20 @@
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
-      "lightninggoat": {
-        "display": "Volt Goats",
+      "ocean_shoal": {
+        "display": "Shoals",
         "default-value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
-      "moon_fruitdragon": {
-        "display": "Saladmander",
+      "bees": {
+        "display": "Bee Hives",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
+      "beefalo": {
+        "display": "Beefalos",
         "default-value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
@@ -328,20 +328,8 @@
   "monsters": {
     "display": "Hostile Creatures and Spawners",
     "settings": {
-      "walrus": {
-        "display": "MacTusk Camps",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
-      "merm": {
-        "display": "Leaky Shack",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
-      },
-      "houndmound": {
-        "display": "Hound Mounds",
+      "spiders": {
+        "display": "Spider Dens",
         "default-value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
@@ -352,8 +340,14 @@
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
-      "tallbirds": {
-        "display": "Tallbirds",
+      "moon_spiders": {
+        "display": "Shattered Spider Holes",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
+      "houndmound": {
+        "display": "Hound Mounds",
         "default-value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
@@ -364,14 +358,20 @@
         "options": ["ocean_never", "ocean_rare", "ocean_uncommon", "ocean_default", "ocean_often", "ocean_mostly", "ocean_always", "ocean_insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
-      "moon_spiders": {
-        "display": "Shattered Spider Holes",
+      "tallbirds": {
+        "display": "Tallbirds",
         "default-value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
-      "spiders": {
-        "display": "Spider Dens",
+      "walrus": {
+        "display": "MacTusk Camps",
+        "default-value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
+      },
+      "merm": {
+        "display": "Leaky Shack",
         "default-value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "display-opts": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
