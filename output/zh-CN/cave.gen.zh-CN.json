@@ -1,255 +1,298 @@
-{
-  "global": {
+[
+  {
+    "name": "global",
     "display": "全局",
-    "settings": {
-      "season_start": {
+    "options": [
+      {
+        "key": "season_start",
         "display": "起始季节",
-        "default-value": "default",
+        "value": "default",
         "options": ["default", "winter", "spring", "summer", "autumn|spring", "winter|summer", "autumn|winter|spring|summer"],
-        "display-opts": ["秋", "冬", "春", "夏", "春或秋", "冬季或夏季", "随机"]
+        "opts-display": ["秋", "冬", "春", "夏", "春或秋", "冬季或夏季", "随机"]
       }
-    }
+    ]
   },
-  "misc": {
+  {
+    "name": "misc",
     "display": "世界",
-    "settings": {
-      "cavelight": {
-        "display": "洞穴光照",
-        "default-value": "default",
-        "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
-        "display-opts": ["无", "极慢", "慢", "默认", "快", "极快"]
-      },
-      "loop": {
-        "display": "环形",
-        "default-value": "default",
-        "options": ["never", "default", "always"],
-        "display-opts": ["从不", "默认", "总是"]
-      },
-      "start_location": {
-        "display": "出生点",
-        "default-value": "default",
-        "options": ["darkness", "plus", "default"],
-        "display-opts": ["黑暗", "额外资源", "默认"]
-      },
-      "touchstone": {
-        "display": "试金石",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "branching": {
-        "display": "分支",
-        "default-value": "default",
-        "options": ["never", "least", "default", "most", "random"],
-        "display-opts": ["从不", "最少", "默认", "最多", "随机"]
-      },
-      "world_size": {
-        "display": "世界大小",
-        "default-value": "default",
-        "options": ["small", "medium", "default", "huge"],
-        "display-opts": ["小", "中", "大", "巨大"]
-      },
-      "task_set": {
-        "display": "生物群落",
-        "default-value": "default",
-        "options": ["default", "classic"],
-        "display-opts": ["联机版", "经典"]
-      },
-      "prefabswaps_start": {
-        "display": "开始资源多样化",
-        "default-value": "default",
-        "options": ["classic", "default", "highly random"],
-        "display-opts": ["经典", "默认", "非常随机"]
-      },
-      "boons": {
+    "options": [
+      {
+        "key": "boons",
         "display": "失败的冒险家",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "branching",
+        "display": "分支",
+        "value": "default",
+        "options": ["never", "least", "default", "most", "random"],
+        "opts-display": ["从不", "最少", "默认", "最多", "随机"]
+      },
+      {
+        "key": "cavelight",
+        "display": "洞穴光照",
+        "value": "default",
+        "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
+        "opts-display": ["无", "极慢", "慢", "默认", "快", "极快"]
+      },
+      {
+        "key": "loop",
+        "display": "环形",
+        "value": "default",
+        "options": ["never", "default", "always"],
+        "opts-display": ["从不", "默认", "总是"]
+      },
+      {
+        "key": "prefabswaps_start",
+        "display": "开始资源多样化",
+        "value": "default",
+        "options": ["classic", "default", "highly random"],
+        "opts-display": ["经典", "默认", "非常随机"]
+      },
+      {
+        "key": "start_location",
+        "display": "出生点",
+        "value": "default",
+        "options": ["default", "darkness", "plus"],
+        "opts-display": ["默认", "黑暗", "额外资源"]
+      },
+      {
+        "key": "task_set",
+        "display": "生物群落",
+        "value": "default",
+        "options": ["default", "classic"],
+        "opts-display": ["联机版", "经典"]
+      },
+      {
+        "key": "touchstone",
+        "display": "试金石",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "world_size",
+        "display": "世界大小",
+        "value": "default",
+        "options": ["small", "medium", "default", "huge"],
+        "opts-display": ["小", "中", "大", "巨大"]
       }
-    }
+    ]
   },
-  "resources": {
+  {
+    "name": "resources",
     "display": "资源",
-    "settings": {
-      "grass": {
-        "display": "草",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "berrybush": {
-        "display": "浆果丛",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "flower_cave": {
-        "display": "荧光花",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "cave_ponds": {
-        "display": "池塘",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "mushtree": {
-        "display": "蘑菇树",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "wormlights": {
-        "display": "发光浆果",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "reeds": {
-        "display": "芦苇",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "mushroom": {
-        "display": "蘑菇",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "rock": {
-        "display": "巨石",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "banana": {
+    "options": [
+      {
+        "key": "banana",
         "display": "香蕉",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       },
-      "sapling": {
-        "display": "树苗",
-        "default-value": "default",
+      {
+        "key": "berrybush",
+        "display": "浆果丛",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       },
-      "lichen": {
-        "display": "苔藓",
-        "default-value": "default",
+      {
+        "key": "cave_ponds",
+        "display": "池塘",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       },
-      "trees": {
-        "display": "树（所有）",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "marshbush": {
-        "display": "尖刺灌木",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "fern": {
+      {
+        "key": "fern",
         "display": "洞穴蕨类",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       },
-      "flint": {
+      {
+        "key": "flint",
         "display": "燧石",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "flower_cave",
+        "display": "荧光花",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "grass",
+        "display": "草",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "lichen",
+        "display": "苔藓",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "marshbush",
+        "display": "尖刺灌木",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "mushroom",
+        "display": "蘑菇",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "mushtree",
+        "display": "蘑菇树",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "reeds",
+        "display": "芦苇",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "rock",
+        "display": "巨石",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "sapling",
+        "display": "树苗",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "trees",
+        "display": "树（所有）",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "wormlights",
+        "display": "发光浆果",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       }
-    }
+    ]
   },
-  "animals": {
+  {
+    "name": "animals",
     "display": "生物以及刷新点",
-    "settings": {
-      "rocky": {
-        "display": "石虾",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "bunnymen": {
+    "options": [
+      {
+        "key": "bunnymen",
         "display": "兔屋",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       },
-      "monkey": {
+      {
+        "key": "monkey",
         "display": "穴居猴桶",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       },
-      "slurtles": {
-        "display": "蛞蝓龟窝",
-        "default-value": "default",
+      {
+        "key": "rocky",
+        "display": "石虾",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       },
-      "slurper": {
+      {
+        "key": "slurper",
         "display": "啜食者",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "slurtles",
+        "display": "蛞蝓龟窝",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       }
-    }
+    ]
   },
-  "monsters": {
+  {
+    "name": "monsters",
     "display": "敌对生物以及刷新点",
-    "settings": {
-      "worms": {
-        "display": "洞穴蠕虫",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "tentacles": {
-        "display": "触手",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "spiders": {
-        "display": "蜘蛛巢",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "cave_spiders": {
-        "display": "蛛网岩",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "bats": {
+    "options": [
+      {
+        "key": "bats",
         "display": "蝙蝠",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       },
-      "chess": {
+      {
+        "key": "cave_spiders",
+        "display": "蛛网岩",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "chess",
         "display": "发条装置",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       },
-      "fissure": {
+      {
+        "key": "fissure",
         "display": "梦魇裂隙",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "spiders",
+        "display": "蜘蛛巢",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "tentacles",
+        "display": "触手",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "worms",
+        "display": "洞穴蠕虫",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       }
-    }
+    ]
   }
-}
+]

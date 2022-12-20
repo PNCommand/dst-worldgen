@@ -1,255 +1,298 @@
-{
-  "global": {
+[
+  {
+    "name": "global",
     "display": "グローバル",
-    "settings": {
-      "season_start": {
+    "options": [
+      {
+        "key": "season_start",
         "display": "最初の季節",
-        "default-value": "default",
+        "value": "default",
         "options": ["default", "winter", "spring", "summer", "autumn|spring", "winter|summer", "autumn|winter|spring|summer"],
-        "display-opts": ["秋", "冬", "春", "夏", "秋か春", "冬または夏", "ランダム"]
+        "opts-display": ["秋", "冬", "春", "夏", "秋か春", "冬または夏", "ランダム"]
       }
-    }
+    ]
   },
-  "misc": {
+  {
+    "name": "misc",
     "display": "世界",
-    "settings": {
-      "loop": {
-        "display": "ループ",
-        "default-value": "default",
-        "options": ["never", "default", "always"],
-        "display-opts": ["ありえない", "デフォルト", "いつも"]
-      },
-      "branching": {
-        "display": "枝",
-        "default-value": "default",
-        "options": ["never", "least", "default", "most", "random"],
-        "display-opts": ["ありえない", "一番少ない", "デフォルト", "一番", "ランダム"]
-      },
-      "cavelight": {
-        "display": "縦穴からの光",
-        "default-value": "default",
-        "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
-        "display-opts": ["なし", "とても遅い", "遅い", "デフォルト", "速い", "とても速い"]
-      },
-      "task_set": {
-        "display": "生物",
-        "default-value": "default",
-        "options": ["classic", "default"],
-        "display-opts": ["クラシック", "Together"]
-      },
-      "prefabswaps_start": {
-        "display": "スタート時の素材の種類",
-        "default-value": "default",
-        "options": ["classic", "default", "highly random"],
-        "display-opts": ["クラシック", "デフォルト", "かなりランダム"]
-      },
-      "start_location": {
-        "display": "産卵領域",
-        "default-value": "default",
-        "options": ["darkness", "default", "plus"],
-        "display-opts": ["暗い", "デフォルト", "準備万端"]
-      },
-      "world_size": {
-        "display": "ワールドのサイズ",
-        "default-value": "default",
-        "options": ["small", "medium", "default", "huge"],
-        "display-opts": ["ちっぽけな", "ミディアム", "大きい", "巨大"]
-      },
-      "boons": {
+    "options": [
+      {
+        "key": "boons",
         "display": "倒れた冒険者",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+        "opts-display": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
       },
-      "touchstone": {
+      {
+        "key": "branching",
+        "display": "枝",
+        "value": "default",
+        "options": ["never", "least", "default", "most", "random"],
+        "opts-display": ["ありえない", "一番少ない", "デフォルト", "一番", "ランダム"]
+      },
+      {
+        "key": "cavelight",
+        "display": "縦穴からの光",
+        "value": "default",
+        "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
+        "opts-display": ["なし", "とても遅い", "遅い", "デフォルト", "速い", "とても速い"]
+      },
+      {
+        "key": "loop",
+        "display": "ループ",
+        "value": "default",
+        "options": ["never", "default", "always"],
+        "opts-display": ["ありえない", "デフォルト", "いつも"]
+      },
+      {
+        "key": "prefabswaps_start",
+        "display": "スタート時の素材の種類",
+        "value": "default",
+        "options": ["classic", "default", "highly random"],
+        "opts-display": ["クラシック", "デフォルト", "かなりランダム"]
+      },
+      {
+        "key": "start_location",
+        "display": "産卵領域",
+        "value": "default",
+        "options": ["darkness", "plus", "default"],
+        "opts-display": ["暗い", "準備万端", "デフォルト"]
+      },
+      {
+        "key": "task_set",
+        "display": "生物",
+        "value": "default",
+        "options": ["classic", "default"],
+        "opts-display": ["クラシック", "Together"]
+      },
+      {
+        "key": "touchstone",
         "display": "死に戻りの標",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+        "opts-display": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      {
+        "key": "world_size",
+        "display": "ワールドのサイズ",
+        "value": "default",
+        "options": ["small", "medium", "default", "huge"],
+        "opts-display": ["ちっぽけな", "ミディアム", "大きい", "巨大"]
       }
-    }
+    ]
   },
-  "resources": {
+  {
+    "name": "resources",
     "display": "資源",
-    "settings": {
-      "fern": {
-        "display": "ドウクツシダ",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
-      },
-      "trees": {
-        "display": "木(全種類)",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
-      },
-      "wormlights": {
-        "display": "発光ベリー",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
-      },
-      "cave_ponds": {
-        "display": "池",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
-      },
-      "sapling": {
-        "display": "苗木",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
-      },
-      "flower_cave": {
-        "display": "ランプ草",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
-      },
-      "reeds": {
-        "display": "アシ",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
-      },
-      "grass": {
-        "display": "草",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
-      },
-      "berrybush": {
-        "display": "木イチゴの低木",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
-      },
-      "rock": {
-        "display": "岩",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
-      },
-      "marshbush": {
-        "display": "トゲトゲの茂み",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
-      },
-      "flint": {
-        "display": "フリント",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
-      },
-      "lichen": {
-        "display": "コケ",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
-      },
-      "banana": {
+    "options": [
+      {
+        "key": "banana",
         "display": "バナナ",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+        "opts-display": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
       },
-      "mushroom": {
+      {
+        "key": "berrybush",
+        "display": "木イチゴの低木",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      {
+        "key": "cave_ponds",
+        "display": "池",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      {
+        "key": "fern",
+        "display": "ドウクツシダ",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      {
+        "key": "flint",
+        "display": "フリント",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      {
+        "key": "flower_cave",
+        "display": "ランプ草",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      {
+        "key": "grass",
+        "display": "草",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      {
+        "key": "lichen",
+        "display": "コケ",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      {
+        "key": "marshbush",
+        "display": "トゲトゲの茂み",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      {
+        "key": "mushroom",
         "display": "キノコ",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+        "opts-display": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
       },
-      "mushtree": {
+      {
+        "key": "mushtree",
         "display": "マッシュツリー",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+        "opts-display": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      {
+        "key": "reeds",
+        "display": "アシ",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      {
+        "key": "rock",
+        "display": "岩",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      {
+        "key": "sapling",
+        "display": "苗木",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      {
+        "key": "trees",
+        "display": "木(全種類)",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      {
+        "key": "wormlights",
+        "display": "発光ベリー",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
       }
-    }
+    ]
   },
-  "animals": {
+  {
+    "name": "animals",
     "display": "生物とスポナー",
-    "settings": {
-      "rocky": {
-        "display": "ロックロブスター",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
-      },
-      "slurtles": {
-        "display": "スラートル亀の土塁",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
-      },
-      "slurper": {
-        "display": "スラーパー",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
-      },
-      "monkey": {
-        "display": "スプルモンキーの群れ",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
-      },
-      "bunnymen": {
+    "options": [
+      {
+        "key": "bunnymen",
         "display": "ウサギ小屋",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+        "opts-display": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      {
+        "key": "monkey",
+        "display": "スプルモンキーの群れ",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      {
+        "key": "rocky",
+        "display": "ロックロブスター",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      {
+        "key": "slurper",
+        "display": "スラーパー",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      {
+        "key": "slurtles",
+        "display": "スラートル亀の土塁",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
       }
-    }
+    ]
   },
-  "monsters": {
+  {
+    "name": "monsters",
     "display": "敵対生物とスポナー",
-    "settings": {
-      "fissure": {
-        "display": "悪夢の亀裂",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
-      },
-      "spiders": {
-        "display": "クモの巣穴",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
-      },
-      "worms": {
-        "display": "ワーム",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
-      },
-      "tentacles": {
-        "display": "触手",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
-      },
-      "chess": {
-        "display": "ぜんまい仕掛けの駒",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
-      },
-      "bats": {
+    "options": [
+      {
+        "key": "bats",
         "display": "バットリスク",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+        "opts-display": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
       },
-      "cave_spiders": {
+      {
+        "key": "cave_spiders",
         "display": "スピルガマイト",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+        "opts-display": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      {
+        "key": "chess",
+        "display": "ぜんまい仕掛けの駒",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      {
+        "key": "fissure",
+        "display": "悪夢の亀裂",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      {
+        "key": "spiders",
+        "display": "クモの巣穴",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      {
+        "key": "tentacles",
+        "display": "触手",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
+      },
+      {
+        "key": "worms",
+        "display": "ワーム",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["なし", "ちっこい", "少ない", "デフォルト", "もっと", "いっぱい", "いっぱい", "インセイン"]
       }
-    }
+    ]
   }
-}
+]

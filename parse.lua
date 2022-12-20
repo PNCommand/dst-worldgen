@@ -205,7 +205,7 @@ local function output_json(is_gen, world_type)
   print("New JSON File: "..file_name)
   local output = io.open(file_name, "w")
 
-  output:write("{\n")
+  output:write("[\n")
   for order, group_key in ipairs(order_list) do
     local group_data = nil
     if is_gen then
@@ -214,9 +214,10 @@ local function output_json(is_gen, world_type)
       group_data = C.WORLDSETTINGS_GROUP[group_key]
     end
 
-    output:write(json_prefix_lv1.."\""..group_key.."\": {\n")
+    output:write(json_prefix_lv1.."{\n")
+    output:write(json_prefix_lv2.."\"name\": \""..group_key.."\",\n")
     output:write(json_prefix_lv2.."\"display\": \""..group_data.text.."\",\n")
-    output:write(json_prefix_lv2.."\"settings\": {\n")
+    output:write(json_prefix_lv2.."\"options\": [\n")
   
     local items_size = 0
     for _, data in pairs(group_data.items) do
@@ -227,8 +228,10 @@ local function output_json(is_gen, world_type)
       end
     end
     local count = 0
-  
-    for setting_key, setting_data in pairs(group_data.items) do
+
+    local sortedOptionsList = GetSortedKeyArray(group_data.items)
+    for _, setting_key in ipairs(sortedOptionsList) do
+      local setting_data = group_data.items[setting_key]
       if is_gen and setting_data.world then
         local is_target_world = Indexof(setting_data.world, world_type)
         if is_target_world == -1 then
@@ -251,12 +254,13 @@ local function output_json(is_gen, world_type)
       end
   
       local setting_table = repack_setting_options(options)
-      output:write(json_prefix_lv3.."\""..id.."\": {\n")
-      
+      output:write(json_prefix_lv3.."{\n")
+
+      output:write(json_prefix_lv4.."\"key\": \""..id.."\",\n")
       output:write(json_prefix_lv4.."\"display\": \""..display_name.."\",\n")
-      output:write(json_prefix_lv4.."\"default-value\": \""..default_value.."\",\n")
+      output:write(json_prefix_lv4.."\"value\": \""..default_value.."\",\n")
       output:write(json_prefix_lv4.."\"options\": [\""..table.concat(setting_table.data, "\", \"").."\"],\n")
-      output:write(json_prefix_lv4.."\"display-opts\": [\""..table.concat(setting_table.display, "\", \"").."\"]\n")
+      output:write(json_prefix_lv4.."\"opts-display\": [\""..table.concat(setting_table.display, "\", \"").."\"]\n")
   
       if count < items_size then
         output:write(json_prefix_lv3.."},\n")
@@ -266,14 +270,14 @@ local function output_json(is_gen, world_type)
       ::continue::
     end
   
-    output:write(json_prefix_lv2.."}\n")
+    output:write(json_prefix_lv2.."]\n")
     if order < #order_list then
       output:write(json_prefix_lv1.."},\n")
     else
       output:write(json_prefix_lv1.."}\n")
     end
   end
-  output:write("}\n")
+  output:write("]\n")
   output:close()
 end
 

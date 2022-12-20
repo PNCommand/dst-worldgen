@@ -1,393 +1,459 @@
-{
-  "global": {
+[
+  {
+    "name": "global",
     "display": "全局",
-    "settings": {
-      "season_start": {
+    "options": [
+      {
+        "key": "season_start",
         "display": "起始季节",
-        "default-value": "default",
+        "value": "default",
         "options": ["default", "winter", "spring", "summer", "autumn|spring", "winter|summer", "autumn|winter|spring|summer"],
-        "display-opts": ["秋", "冬", "春", "夏", "春或秋", "冬季或夏季", "随机"]
+        "opts-display": ["秋", "冬", "春", "夏", "春或秋", "冬季或夏季", "随机"]
       }
-    }
+    ]
   },
-  "misc": {
+  {
+    "name": "misc",
     "display": "世界",
-    "settings": {
-      "terrariumchest": {
-        "display": "盒中泰拉",
-        "default-value": "default",
-        "options": ["never", "default"],
-        "display-opts": ["无", "默认"]
-      },
-      "loop": {
-        "display": "环形",
-        "default-value": "default",
-        "options": ["never", "default", "always"],
-        "display-opts": ["从不", "默认", "总是"]
-      },
-      "moon_fissure": {
-        "display": "天体裂隙",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "stageplays": {
-        "display": "舞台剧",
-        "default-value": "default",
-        "options": ["never", "default"],
-        "display-opts": ["无", "默认"]
-      },
-      "roads": {
-        "display": "道路",
-        "default-value": "default",
-        "options": ["never", "default"],
-        "display-opts": ["无", "默认"]
-      },
-      "start_location": {
-        "display": "出生点",
-        "default-value": "default",
-        "options": ["darkness", "plus", "default"],
-        "display-opts": ["黑暗", "额外资源", "默认"]
-      },
-      "touchstone": {
-        "display": "试金石",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "branching": {
-        "display": "分支",
-        "default-value": "default",
-        "options": ["never", "least", "default", "most", "random"],
-        "display-opts": ["从不", "最少", "默认", "最多", "随机"]
-      },
-      "world_size": {
-        "display": "世界大小",
-        "default-value": "default",
-        "options": ["small", "medium", "default", "huge"],
-        "display-opts": ["小", "中", "大", "巨大"]
-      },
-      "task_set": {
-        "display": "生物群落",
-        "default-value": "default",
-        "options": ["default", "classic"],
-        "display-opts": ["联机版", "经典"]
-      },
-      "prefabswaps_start": {
-        "display": "开始资源多样化",
-        "default-value": "default",
-        "options": ["classic", "default", "highly random"],
-        "display-opts": ["经典", "默认", "非常随机"]
-      },
-      "boons": {
+    "options": [
+      {
+        "key": "boons",
         "display": "失败的冒险家",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "branching",
+        "display": "分支",
+        "value": "default",
+        "options": ["never", "least", "default", "most", "random"],
+        "opts-display": ["从不", "最少", "默认", "最多", "随机"]
+      },
+      {
+        "key": "loop",
+        "display": "环形",
+        "value": "default",
+        "options": ["never", "default", "always"],
+        "opts-display": ["从不", "默认", "总是"]
+      },
+      {
+        "key": "moon_fissure",
+        "display": "天体裂隙",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "prefabswaps_start",
+        "display": "开始资源多样化",
+        "value": "default",
+        "options": ["classic", "default", "highly random"],
+        "opts-display": ["经典", "默认", "非常随机"]
+      },
+      {
+        "key": "roads",
+        "display": "道路",
+        "value": "default",
+        "options": ["never", "default"],
+        "opts-display": ["无", "默认"]
+      },
+      {
+        "key": "stageplays",
+        "display": "舞台剧",
+        "value": "default",
+        "options": ["never", "default"],
+        "opts-display": ["无", "默认"]
+      },
+      {
+        "key": "start_location",
+        "display": "出生点",
+        "value": "default",
+        "options": ["default", "darkness", "plus"],
+        "opts-display": ["默认", "黑暗", "额外资源"]
+      },
+      {
+        "key": "task_set",
+        "display": "生物群落",
+        "value": "default",
+        "options": ["default", "classic"],
+        "opts-display": ["联机版", "经典"]
+      },
+      {
+        "key": "terrariumchest",
+        "display": "盒中泰拉",
+        "value": "default",
+        "options": ["never", "default"],
+        "opts-display": ["无", "默认"]
+      },
+      {
+        "key": "touchstone",
+        "display": "试金石",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "world_size",
+        "display": "世界大小",
+        "value": "default",
+        "options": ["small", "medium", "default", "huge"],
+        "opts-display": ["小", "中", "大", "巨大"]
       }
-    }
+    ]
   },
-  "resources": {
+  {
+    "name": "resources",
     "display": "资源",
-    "settings": {
-      "moon_sapling": {
-        "display": "月亮树苗",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "grass": {
-        "display": "草",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "carrot": {
-        "display": "胡萝卜",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "moon_berrybush": {
-        "display": "石果灌木丛",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "berrybush": {
+    "options": [
+      {
+        "key": "berrybush",
         "display": "浆果丛",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       },
-      "palmconetree": {
-        "display": "棕榈松果树",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "reeds": {
-        "display": "芦苇",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "mushroom": {
-        "display": "蘑菇",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "moon_tree": {
-        "display": "月树",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "moon_hotspring": {
-        "display": "温泉",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "rock": {
-        "display": "巨石",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "meteorspawner": {
-        "display": "流星区域",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "ocean_seastack": {
-        "display": "海蚀柱",
-        "default-value": "ocean_default",
-        "options": ["ocean_never", "ocean_rare", "ocean_uncommon", "ocean_default", "ocean_often", "ocean_mostly", "ocean_always", "ocean_insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "tumbleweed": {
-        "display": "风滚草",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "ocean_bullkelp": {
-        "display": "公牛海带",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "sapling": {
-        "display": "树苗",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "moon_starfish": {
-        "display": "海星",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "ponds": {
-        "display": "池塘",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "trees": {
-        "display": "树（所有）",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "flowers": {
-        "display": "花，邪恶花",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "moon_rock": {
-        "display": "月亮石",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "marshbush": {
-        "display": "尖刺灌木",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "rock_ice": {
-        "display": "迷你冰川",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "moon_bullkelp": {
-        "display": "海岸公牛海带",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "cactus": {
+      {
+        "key": "cactus",
         "display": "仙人掌",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       },
-      "flint": {
+      {
+        "key": "carrot",
+        "display": "胡萝卜",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "flint",
         "display": "燧石",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      }
-    }
-  },
-  "animals": {
-    "display": "生物以及刷新点",
-    "settings": {
-      "pigs": {
-        "display": "猪屋",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       },
-      "buzzard": {
-        "display": "秃鹫",
-        "default-value": "default",
+      {
+        "key": "flowers",
+        "display": "花，邪恶花",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       },
-      "bees": {
-        "display": "蜜蜂蜂窝",
-        "default-value": "default",
+      {
+        "key": "grass",
+        "display": "草",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       },
-      "ocean_wobsterden": {
-        "display": "龙虾窝",
-        "default-value": "default",
+      {
+        "key": "marshbush",
+        "display": "尖刺灌木",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       },
-      "catcoon": {
-        "display": "空心树桩",
-        "default-value": "default",
+      {
+        "key": "meteorspawner",
+        "display": "流星区域",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       },
-      "moon_fruitdragon": {
-        "display": "沙拉蝾螈",
-        "default-value": "default",
+      {
+        "key": "moon_berrybush",
+        "display": "石果灌木丛",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       },
-      "rabbits": {
-        "display": "兔洞",
-        "default-value": "default",
+      {
+        "key": "moon_bullkelp",
+        "display": "海岸公牛海带",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       },
-      "moon_carrot": {
-        "display": "胡萝卜鼠",
-        "default-value": "default",
+      {
+        "key": "moon_hotspring",
+        "display": "温泉",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       },
-      "ocean_shoal": {
-        "display": "鱼群",
-        "default-value": "default",
+      {
+        "key": "moon_rock",
+        "display": "月亮石",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       },
-      "moles": {
-        "display": "鼹鼠洞",
-        "default-value": "default",
+      {
+        "key": "moon_sapling",
+        "display": "月亮树苗",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       },
-      "beefalo": {
-        "display": "皮弗娄牛",
-        "default-value": "default",
+      {
+        "key": "moon_starfish",
+        "display": "海星",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       },
-      "lightninggoat": {
-        "display": "伏特羊",
-        "default-value": "default",
+      {
+        "key": "moon_tree",
+        "display": "月树",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      }
-    }
-  },
-  "monsters": {
-    "display": "敌对生物以及刷新点",
-    "settings": {
-      "angrybees": {
-        "display": "杀人蜂蜂窝",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       },
-      "houndmound": {
-        "display": "猎犬丘",
-        "default-value": "default",
+      {
+        "key": "mushroom",
+        "display": "蘑菇",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       },
-      "tentacles": {
-        "display": "触手",
-        "default-value": "default",
+      {
+        "key": "ocean_bullkelp",
+        "display": "公牛海带",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       },
-      "spiders": {
-        "display": "蜘蛛巢",
-        "default-value": "default",
-        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
-      },
-      "ocean_waterplant": {
-        "display": "海草",
-        "default-value": "ocean_default",
+      {
+        "key": "ocean_seastack",
+        "display": "海蚀柱",
+        "value": "ocean_default",
         "options": ["ocean_never", "ocean_rare", "ocean_uncommon", "ocean_default", "ocean_often", "ocean_mostly", "ocean_always", "ocean_insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       },
-      "walrus": {
-        "display": "海象营地",
-        "default-value": "default",
+      {
+        "key": "palmconetree",
+        "display": "棕榈松果树",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       },
-      "moon_spiders": {
-        "display": "破碎蜘蛛洞",
-        "default-value": "default",
+      {
+        "key": "ponds",
+        "display": "池塘",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       },
-      "chess": {
-        "display": "发条装置",
-        "default-value": "default",
+      {
+        "key": "reeds",
+        "display": "芦苇",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       },
-      "merm": {
-        "display": "漏雨的小屋",
-        "default-value": "default",
+      {
+        "key": "rock",
+        "display": "巨石",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       },
-      "tallbirds": {
-        "display": "高脚鸟",
-        "default-value": "default",
+      {
+        "key": "rock_ice",
+        "display": "迷你冰川",
+        "value": "default",
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
-        "display-opts": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "sapling",
+        "display": "树苗",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "trees",
+        "display": "树（所有）",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "tumbleweed",
+        "display": "风滚草",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
       }
-    }
+    ]
+  },
+  {
+    "name": "animals",
+    "display": "生物以及刷新点",
+    "options": [
+      {
+        "key": "beefalo",
+        "display": "皮弗娄牛",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "bees",
+        "display": "蜜蜂蜂窝",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "buzzard",
+        "display": "秃鹫",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "catcoon",
+        "display": "空心树桩",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "lightninggoat",
+        "display": "伏特羊",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "moles",
+        "display": "鼹鼠洞",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "moon_carrot",
+        "display": "胡萝卜鼠",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "moon_fruitdragon",
+        "display": "沙拉蝾螈",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "ocean_shoal",
+        "display": "鱼群",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "ocean_wobsterden",
+        "display": "龙虾窝",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "pigs",
+        "display": "猪屋",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "rabbits",
+        "display": "兔洞",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      }
+    ]
+  },
+  {
+    "name": "monsters",
+    "display": "敌对生物以及刷新点",
+    "options": [
+      {
+        "key": "angrybees",
+        "display": "杀人蜂蜂窝",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "chess",
+        "display": "发条装置",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "houndmound",
+        "display": "猎犬丘",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "merm",
+        "display": "漏雨的小屋",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "moon_spiders",
+        "display": "破碎蜘蛛洞",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "ocean_waterplant",
+        "display": "海草",
+        "value": "ocean_default",
+        "options": ["ocean_never", "ocean_rare", "ocean_uncommon", "ocean_default", "ocean_often", "ocean_mostly", "ocean_always", "ocean_insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "spiders",
+        "display": "蜘蛛巢",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "tallbirds",
+        "display": "高脚鸟",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "tentacles",
+        "display": "触手",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      },
+      {
+        "key": "walrus",
+        "display": "海象营地",
+        "value": "default",
+        "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
+        "opts-display": ["无", "很少", "较少", "默认", "较多", "很多", "大量", "疯狂"]
+      }
+    ]
   }
-}
+]

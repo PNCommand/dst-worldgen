@@ -1,809 +1,945 @@
-{
-  "global": {
+[
+  {
+    "name": "global",
     "display": "全局",
-    "settings": {
-      "beefaloheat": {
-        "display": "皮弗娄牛交配频率",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "specialevent": {
-        "display": "活动",
-        "default-value": "default",
-        "options": ["none", "default"],
-        "display-opts": ["无", "自动"]
-      },
-      "autumn": {
+    "options": [
+      {
+        "key": "autumn",
         "display": "秋",
-        "default-value": "default",
+        "value": "default",
         "options": ["noseason", "veryshortseason", "shortseason", "default", "longseason", "verylongseason", "random"],
-        "display-opts": ["无", "极短", "短", "默认", "长", "极长", "随机"]
+        "opts-display": ["无", "极短", "短", "默认", "长", "极长", "随机"]
       },
-      "portalresurection": {
-        "display": "在绚丽之门复活",
-        "default-value": "none",
-        "options": ["none", "always"],
-        "display-opts": ["禁用", "启用"]
+      {
+        "key": "beefaloheat",
+        "display": "皮弗娄牛交配频率",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
       },
-      "ghostenabled": {
-        "display": "冒险家死亡",
-        "default-value": "always",
-        "options": ["none", "always"],
-        "display-opts": ["更改冒险家", "变鬼魂"]
-      },
-      "summer": {
-        "display": "夏",
-        "default-value": "default",
-        "options": ["noseason", "veryshortseason", "shortseason", "default", "longseason", "verylongseason", "random"],
-        "display-opts": ["无", "极短", "短", "默认", "长", "极长", "随机"]
-      },
-      "winter": {
-        "display": "冬",
-        "default-value": "default",
-        "options": ["noseason", "veryshortseason", "shortseason", "default", "longseason", "verylongseason", "random"],
-        "display-opts": ["无", "极短", "短", "默认", "长", "极长", "随机"]
-      },
-      "day": {
+      {
+        "key": "day",
         "display": "昼夜选项",
-        "default-value": "default",
+        "value": "default",
         "options": ["default", "longday", "longdusk", "longnight", "noday", "nodusk", "nonight", "onlyday", "onlydusk", "onlynight"],
-        "display-opts": ["默认", "长 白天", "长 黄昏", "长 夜晚", "无 白天", "无 黄昏", "无 夜晚", "仅 白天", "仅 黄昏", "仅 夜晚"]
+        "opts-display": ["默认", "长 白天", "长 黄昏", "长 夜晚", "无 白天", "无 黄昏", "无 夜晚", "仅 白天", "仅 黄昏", "仅 夜晚"]
       },
-      "resettime": {
-        "display": "死亡重置倒计时",
-        "default-value": "default",
-        "options": ["none", "slow", "default", "fast", "always"],
-        "display-opts": ["禁用", "慢", "默认", "快", "立刻"]
+      {
+        "key": "ghostenabled",
+        "display": "冒险家死亡",
+        "value": "always",
+        "options": ["none", "always"],
+        "opts-display": ["更改冒险家", "变鬼魂"]
       },
-      "krampus": {
-        "display": "坎普斯",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "spawnmode": {
-        "display": "出生模式",
-        "default-value": "fixed",
-        "options": ["fixed", "scatter"],
-        "display-opts": ["绚丽之门", "随机"]
-      },
-      "ghostsanitydrain": {
+      {
+        "key": "ghostsanitydrain",
         "display": "鬼魂理智值惩罚",
-        "default-value": "always",
+        "value": "always",
         "options": ["none", "always"],
-        "display-opts": ["禁用", "启用"]
+        "opts-display": ["禁用", "启用"]
       },
-      "spring": {
+      {
+        "key": "krampus",
+        "display": "坎普斯",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "portalresurection",
+        "display": "在绚丽之门复活",
+        "value": "none",
+        "options": ["none", "always"],
+        "opts-display": ["禁用", "启用"]
+      },
+      {
+        "key": "resettime",
+        "display": "死亡重置倒计时",
+        "value": "default",
+        "options": ["none", "slow", "default", "fast", "always"],
+        "opts-display": ["禁用", "慢", "默认", "快", "立刻"]
+      },
+      {
+        "key": "spawnmode",
+        "display": "出生模式",
+        "value": "fixed",
+        "options": ["fixed", "scatter"],
+        "opts-display": ["绚丽之门", "随机"]
+      },
+      {
+        "key": "specialevent",
+        "display": "活动",
+        "value": "default",
+        "options": ["none", "default"],
+        "opts-display": ["无", "自动"]
+      },
+      {
+        "key": "spring",
         "display": "春",
-        "default-value": "default",
+        "value": "default",
         "options": ["noseason", "veryshortseason", "shortseason", "default", "longseason", "verylongseason", "random"],
-        "display-opts": ["无", "极短", "短", "默认", "长", "极长", "随机"]
+        "opts-display": ["无", "极短", "短", "默认", "长", "极长", "随机"]
+      },
+      {
+        "key": "summer",
+        "display": "夏",
+        "value": "default",
+        "options": ["noseason", "veryshortseason", "shortseason", "default", "longseason", "verylongseason", "random"],
+        "opts-display": ["无", "极短", "短", "默认", "长", "极长", "随机"]
+      },
+      {
+        "key": "winter",
+        "display": "冬",
+        "value": "default",
+        "options": ["noseason", "veryshortseason", "shortseason", "default", "longseason", "verylongseason", "random"],
+        "opts-display": ["无", "极短", "短", "默认", "长", "极长", "随机"]
       }
-    }
+    ]
   },
-  "events": {
+  {
+    "name": "events",
     "display": "活动",
-    "settings": {
-      "year_of_the_pig": {
-        "display": "猪王之年",
-        "default-value": "default",
-        "options": ["default", "enabled"],
-        "display-opts": ["默认", "总是"]
-      },
-      "year_of_the_catcoon": {
-        "display": "浣猫之年",
-        "default-value": "default",
-        "options": ["default", "enabled"],
-        "display-opts": ["默认", "总是"]
-      },
-      "year_of_the_varg": {
-        "display": "座狼之年",
-        "default-value": "default",
-        "options": ["default", "enabled"],
-        "display-opts": ["默认", "总是"]
-      },
-      "crow_carnival": {
+    "options": [
+      {
+        "key": "crow_carnival",
         "display": "盛夏鸦年华",
-        "default-value": "default",
+        "value": "default",
         "options": ["default", "enabled"],
-        "display-opts": ["默认", "总是"]
+        "opts-display": ["默认", "总是"]
       },
-      "year_of_the_gobbler": {
-        "display": "火鸡之年",
-        "default-value": "default",
-        "options": ["default", "enabled"],
-        "display-opts": ["默认", "总是"]
-      },
-      "year_of_the_beefalo": {
-        "display": "皮弗娄牛之年",
-        "default-value": "default",
-        "options": ["default", "enabled"],
-        "display-opts": ["默认", "总是"]
-      },
-      "hallowed_nights": {
+      {
+        "key": "hallowed_nights",
         "display": "万圣夜",
-        "default-value": "default",
+        "value": "default",
         "options": ["default", "enabled"],
-        "display-opts": ["默认", "总是"]
+        "opts-display": ["默认", "总是"]
       },
-      "year_of_the_carrat": {
-        "display": "胡萝卜鼠之年",
-        "default-value": "default",
-        "options": ["default", "enabled"],
-        "display-opts": ["默认", "总是"]
-      },
-      "winters_feast": {
+      {
+        "key": "winters_feast",
         "display": "冬季盛宴",
-        "default-value": "default",
+        "value": "default",
         "options": ["default", "enabled"],
-        "display-opts": ["默认", "总是"]
+        "opts-display": ["默认", "总是"]
+      },
+      {
+        "key": "year_of_the_beefalo",
+        "display": "皮弗娄牛之年",
+        "value": "default",
+        "options": ["default", "enabled"],
+        "opts-display": ["默认", "总是"]
+      },
+      {
+        "key": "year_of_the_carrat",
+        "display": "胡萝卜鼠之年",
+        "value": "default",
+        "options": ["default", "enabled"],
+        "opts-display": ["默认", "总是"]
+      },
+      {
+        "key": "year_of_the_catcoon",
+        "display": "浣猫之年",
+        "value": "default",
+        "options": ["default", "enabled"],
+        "opts-display": ["默认", "总是"]
+      },
+      {
+        "key": "year_of_the_gobbler",
+        "display": "火鸡之年",
+        "value": "default",
+        "options": ["default", "enabled"],
+        "opts-display": ["默认", "总是"]
+      },
+      {
+        "key": "year_of_the_pig",
+        "display": "猪王之年",
+        "value": "default",
+        "options": ["default", "enabled"],
+        "opts-display": ["默认", "总是"]
+      },
+      {
+        "key": "year_of_the_varg",
+        "display": "座狼之年",
+        "value": "default",
+        "options": ["default", "enabled"],
+        "opts-display": ["默认", "总是"]
       }
-    }
+    ]
   },
-  "survivors": {
+  {
+    "name": "survivors",
     "display": "冒险家",
-    "settings": {
-      "lessdamagetaken": {
-        "display": "受到的伤害",
-        "default-value": "none",
-        "options": ["always", "none", "more"],
-        "display-opts": ["较少", "默认", "较多"]
-      },
-      "hunger": {
-        "display": "饥饿伤害",
-        "default-value": "default",
-        "options": ["nonlethal", "default"],
-        "display-opts": ["非致命", "默认"]
-      },
-      "spawnprotection": {
-        "display": "防骚扰出生保护",
-        "default-value": "default",
-        "options": ["never", "default", "always"],
-        "display-opts": ["无", "自动检测", "总是"]
-      },
-      "seasonalstartingitems": {
-        "display": "季节起始物品",
-        "default-value": "default",
-        "options": ["never", "default"],
-        "display-opts": ["无", "默认"]
-      },
-      "darkness": {
-        "display": "黑暗伤害",
-        "default-value": "default",
-        "options": ["nonlethal", "default"],
-        "display-opts": ["非致命", "默认"]
-      },
-      "brightmarecreatures": {
+    "options": [
+      {
+        "key": "brightmarecreatures",
         "display": "启蒙怪兽",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
       },
-      "shadowcreatures": {
-        "display": "理智怪兽",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "healthpenalty": {
-        "display": "血量上限惩罚",
-        "default-value": "always",
-        "options": ["none", "always"],
-        "display-opts": ["禁用", "启用"]
-      },
-      "extrastartingitems": {
-        "display": "额外起始资源",
-        "default-value": "default",
-        "options": ["0", "5", "default", "15", "20", "none"],
-        "display-opts": ["总是", "第5天后", "第10天后", "第15天后", "第20天后", "从不"]
-      },
-      "dropeverythingondespawn": {
-        "display": "离开游戏后物品掉落",
-        "default-value": "default",
-        "options": ["default", "always"],
-        "display-opts": ["默认", "所有"]
-      },
-      "temperaturedamage": {
-        "display": "温度伤害",
-        "default-value": "default",
+      {
+        "key": "darkness",
+        "display": "黑暗伤害",
+        "value": "default",
         "options": ["nonlethal", "default"],
-        "display-opts": ["非致命", "默认"]
-      }
-    }
-  },
-  "misc": {
-    "display": "世界",
-    "settings": {
-      "frograin": {
-        "display": "青蛙雨",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
+        "opts-display": ["非致命", "默认"]
       },
-      "summerhounds": {
-        "display": "火猎犬群",
-        "default-value": "default",
-        "options": ["never", "default"],
-        "display-opts": ["无", "默认"]
+      {
+        "key": "dropeverythingondespawn",
+        "display": "离开游戏后物品掉落",
+        "value": "default",
+        "options": ["default", "always"],
+        "opts-display": ["默认", "所有"]
       },
-      "wildfires": {
-        "display": "野火",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
+      {
+        "key": "extrastartingitems",
+        "display": "额外起始资源",
+        "value": "default",
+        "options": ["0", "5", "default", "15", "20", "none"],
+        "opts-display": ["总是", "第5天后", "第10天后", "第15天后", "第20天后", "从不"]
       },
-      "weather": {
-        "display": "雨",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "atriumgate": {
-        "display": "远古大门",
-        "default-value": "default",
-        "options": ["veryslow", "slow", "default", "fast", "veryfast"],
-        "display-opts": ["极慢", "慢", "默认", "快", "极快"]
-      },
-      "earthquakes": {
-        "display": "地震",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "wormattacks": {
-        "display": "洞穴蠕虫攻击",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "meteorshowers": {
-        "display": "流星频率",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "hunt": {
-        "display": "狩猎",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "winterhounds": {
-        "display": "冰猎犬群",
-        "default-value": "default",
-        "options": ["never", "default"],
-        "display-opts": ["无", "默认"]
-      },
-      "hounds": {
-        "display": "猎犬袭击",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "alternatehunt": {
-        "display": "追猎惊喜",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "lightning": {
-        "display": "闪电",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "petrification": {
-        "display": "森林石化",
-        "default-value": "default",
-        "options": ["none", "few", "default", "many", "max"],
-        "display-opts": ["无", "慢", "默认", "快", "极快"]
-      }
-    }
-  },
-  "resources": {
-    "display": "资源再生",
-    "settings": {
-      "mushtree_regrowth": {
-        "display": "蘑菇树",
-        "default-value": "default",
-        "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
-        "display-opts": ["无", "极慢", "慢", "默认", "快", "极快"]
-      },
-      "carrots_regrowth": {
-        "display": "胡萝卜",
-        "default-value": "default",
-        "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
-        "display-opts": ["无", "极慢", "慢", "默认", "快", "极快"]
-      },
-      "cactus_regrowth": {
-        "display": "仙人掌",
-        "default-value": "default",
-        "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
-        "display-opts": ["无", "极慢", "慢", "默认", "快", "极快"]
-      },
-      "basicresource_regrowth": {
-        "display": "基础资源",
-        "default-value": "none",
+      {
+        "key": "healthpenalty",
+        "display": "血量上限惩罚",
+        "value": "always",
         "options": ["none", "always"],
-        "display-opts": ["禁用", "启用"]
+        "opts-display": ["禁用", "启用"]
       },
-      "deciduoustree_regrowth": {
+      {
+        "key": "hunger",
+        "display": "饥饿伤害",
+        "value": "default",
+        "options": ["nonlethal", "default"],
+        "opts-display": ["非致命", "默认"]
+      },
+      {
+        "key": "lessdamagetaken",
+        "display": "受到的伤害",
+        "value": "none",
+        "options": ["always", "none", "more"],
+        "opts-display": ["较少", "默认", "较多"]
+      },
+      {
+        "key": "seasonalstartingitems",
+        "display": "季节起始物品",
+        "value": "default",
+        "options": ["never", "default"],
+        "opts-display": ["无", "默认"]
+      },
+      {
+        "key": "shadowcreatures",
+        "display": "理智怪兽",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "spawnprotection",
+        "display": "防骚扰出生保护",
+        "value": "default",
+        "options": ["never", "default", "always"],
+        "opts-display": ["无", "自动检测", "总是"]
+      },
+      {
+        "key": "temperaturedamage",
+        "display": "温度伤害",
+        "value": "default",
+        "options": ["nonlethal", "default"],
+        "opts-display": ["非致命", "默认"]
+      }
+    ]
+  },
+  {
+    "name": "misc",
+    "display": "世界",
+    "options": [
+      {
+        "key": "alternatehunt",
+        "display": "追猎惊喜",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "atriumgate",
+        "display": "远古大门",
+        "value": "default",
+        "options": ["veryslow", "slow", "default", "fast", "veryfast"],
+        "opts-display": ["极慢", "慢", "默认", "快", "极快"]
+      },
+      {
+        "key": "earthquakes",
+        "display": "地震",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "frograin",
+        "display": "青蛙雨",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "hounds",
+        "display": "猎犬袭击",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "hunt",
+        "display": "狩猎",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "lightning",
+        "display": "闪电",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "meteorshowers",
+        "display": "流星频率",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "petrification",
+        "display": "森林石化",
+        "value": "default",
+        "options": ["none", "few", "default", "many", "max"],
+        "opts-display": ["无", "慢", "默认", "快", "极快"]
+      },
+      {
+        "key": "summerhounds",
+        "display": "火猎犬群",
+        "value": "default",
+        "options": ["never", "default"],
+        "opts-display": ["无", "默认"]
+      },
+      {
+        "key": "weather",
+        "display": "雨",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "wildfires",
+        "display": "野火",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "winterhounds",
+        "display": "冰猎犬群",
+        "value": "default",
+        "options": ["never", "default"],
+        "opts-display": ["无", "默认"]
+      },
+      {
+        "key": "wormattacks",
+        "display": "洞穴蠕虫攻击",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      }
+    ]
+  },
+  {
+    "name": "resources",
+    "display": "资源再生",
+    "options": [
+      {
+        "key": "basicresource_regrowth",
+        "display": "基础资源",
+        "value": "none",
+        "options": ["none", "always"],
+        "opts-display": ["禁用", "启用"]
+      },
+      {
+        "key": "cactus_regrowth",
+        "display": "仙人掌",
+        "value": "default",
+        "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
+        "opts-display": ["无", "极慢", "慢", "默认", "快", "极快"]
+      },
+      {
+        "key": "carrots_regrowth",
+        "display": "胡萝卜",
+        "value": "default",
+        "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
+        "opts-display": ["无", "极慢", "慢", "默认", "快", "极快"]
+      },
+      {
+        "key": "deciduoustree_regrowth",
         "display": "桦栗树",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
-        "display-opts": ["无", "极慢", "慢", "默认", "快", "极快"]
+        "opts-display": ["无", "极慢", "慢", "默认", "快", "极快"]
       },
-      "flower_cave_regrowth": {
-        "display": "荧光花",
-        "default-value": "default",
-        "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
-        "display-opts": ["无", "极慢", "慢", "默认", "快", "极快"]
-      },
-      "lightflier_flower_regrowth": {
-        "display": "光虫花",
-        "default-value": "default",
-        "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
-        "display-opts": ["无", "极慢", "慢", "默认", "快", "极快"]
-      },
-      "mushtree_moon_regrowth": {
-        "display": "月亮蘑菇树",
-        "default-value": "default",
-        "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
-        "display-opts": ["无", "极慢", "慢", "默认", "快", "极快"]
-      },
-      "evergreen_regrowth": {
+      {
+        "key": "evergreen_regrowth",
         "display": "常青树",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
-        "display-opts": ["无", "极慢", "慢", "默认", "快", "极快"]
+        "opts-display": ["无", "极慢", "慢", "默认", "快", "极快"]
       },
-      "twiggytrees_regrowth": {
-        "display": "多枝树",
-        "default-value": "default",
+      {
+        "key": "flower_cave_regrowth",
+        "display": "荧光花",
+        "value": "default",
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
-        "display-opts": ["无", "极慢", "慢", "默认", "快", "极快"]
+        "opts-display": ["无", "极慢", "慢", "默认", "快", "极快"]
       },
-      "saltstack_regrowth": {
-        "display": "盐堆",
-        "default-value": "default",
-        "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
-        "display-opts": ["无", "极慢", "慢", "默认", "快", "极快"]
-      },
-      "flowers_regrowth": {
+      {
+        "key": "flowers_regrowth",
         "display": "花",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
-        "display-opts": ["无", "极慢", "慢", "默认", "快", "极快"]
+        "opts-display": ["无", "极慢", "慢", "默认", "快", "极快"]
       },
-      "regrowth": {
-        "display": "重生速度",
-        "default-value": "default",
+      {
+        "key": "lightflier_flower_regrowth",
+        "display": "光虫花",
+        "value": "default",
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
-        "display-opts": ["无", "极慢", "慢", "默认", "快", "极快"]
+        "opts-display": ["无", "极慢", "慢", "默认", "快", "极快"]
       },
-      "reeds_regrowth": {
-        "display": "芦苇",
-        "default-value": "default",
-        "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
-        "display-opts": ["无", "极慢", "慢", "默认", "快", "极快"]
-      },
-      "moon_tree_regrowth": {
+      {
+        "key": "moon_tree_regrowth",
         "display": "月树",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
-        "display-opts": ["无", "极慢", "慢", "默认", "快", "极快"]
+        "opts-display": ["无", "极慢", "慢", "默认", "快", "极快"]
       },
-      "palmconetree_regrowth": {
+      {
+        "key": "mushtree_moon_regrowth",
+        "display": "月亮蘑菇树",
+        "value": "default",
+        "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
+        "opts-display": ["无", "极慢", "慢", "默认", "快", "极快"]
+      },
+      {
+        "key": "mushtree_regrowth",
+        "display": "蘑菇树",
+        "value": "default",
+        "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
+        "opts-display": ["无", "极慢", "慢", "默认", "快", "极快"]
+      },
+      {
+        "key": "palmconetree_regrowth",
         "display": "棕榈松果树",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
-        "display-opts": ["无", "极慢", "慢", "默认", "快", "极快"]
+        "opts-display": ["无", "极慢", "慢", "默认", "快", "极快"]
+      },
+      {
+        "key": "reeds_regrowth",
+        "display": "芦苇",
+        "value": "default",
+        "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
+        "opts-display": ["无", "极慢", "慢", "默认", "快", "极快"]
+      },
+      {
+        "key": "regrowth",
+        "display": "重生速度",
+        "value": "default",
+        "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
+        "opts-display": ["无", "极慢", "慢", "默认", "快", "极快"]
+      },
+      {
+        "key": "saltstack_regrowth",
+        "display": "盐堆",
+        "value": "default",
+        "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
+        "opts-display": ["无", "极慢", "慢", "默认", "快", "极快"]
+      },
+      {
+        "key": "twiggytrees_regrowth",
+        "display": "多枝树",
+        "value": "default",
+        "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
+        "opts-display": ["无", "极慢", "慢", "默认", "快", "极快"]
       }
-    }
+    ]
   },
-  "portal_resources": {
+  {
+    "name": "portal_resources",
     "display": "非自然传送门资源",
-    "settings": {
-      "monkeytail_portalrate": {
-        "display": "猴尾草",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "palmcone_seed_portalrate": {
-        "display": "棕榈松果树芽",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "lightcrab_portalrate": {
-        "display": "发光蟹",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "bananabush_portalrate": {
+    "options": [
+      {
+        "key": "bananabush_portalrate",
         "display": "香蕉丛",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
       },
-      "portal_spawnrate": {
+      {
+        "key": "lightcrab_portalrate",
+        "display": "发光蟹",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "monkeytail_portalrate",
+        "display": "猴尾草",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "palmcone_seed_portalrate",
+        "display": "棕榈松果树芽",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "portal_spawnrate",
         "display": "传送频率",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
       },
-      "powder_monkey_portalrate": {
+      {
+        "key": "powder_monkey_portalrate",
         "display": "火药猴",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
       }
-    }
+    ]
   },
-  "animals": {
+  {
+    "name": "animals",
     "display": "生物",
-    "settings": {
-      "penguins": {
-        "display": "企鸥",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "birds": {
-        "display": "鸟",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "bunnymen_setting": {
-        "display": "兔人",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "perd": {
-        "display": "火鸡",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "gnarwail": {
-        "display": "一角鲸",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "monkey_setting": {
-        "display": "穴居猴",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "grassgekkos": {
-        "display": "草壁虎转化",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "butterfly": {
-        "display": "蝴蝶",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "dustmoths": {
-        "display": "尘蛾",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "bees_setting": {
+    "options": [
+      {
+        "key": "bees_setting",
         "display": "蜜蜂",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
       },
-      "moles_setting": {
-        "display": "鼹鼠",
-        "default-value": "default",
+      {
+        "key": "birds",
+        "display": "鸟",
+        "value": "default",
         "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
       },
-      "rabbits_setting": {
-        "display": "兔子",
-        "default-value": "default",
+      {
+        "key": "bunnymen_setting",
+        "display": "兔人",
+        "value": "default",
         "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
       },
-      "wobsters": {
-        "display": "龙虾",
-        "default-value": "default",
+      {
+        "key": "butterfly",
+        "display": "蝴蝶",
+        "value": "default",
         "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
       },
-      "mushgnome": {
-        "display": "蘑菇地精",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "lightfliers": {
-        "display": "球状光虫",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "rocky_setting": {
-        "display": "石虾",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "snurtles": {
-        "display": "蜗牛龟",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "pigs_setting": {
-        "display": "猪",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "slurtles_setting": {
-        "display": "蛞蝓龟",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "fishschools": {
-        "display": "鱼群",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "catcoons": {
+      {
+        "key": "catcoons",
         "display": "浣猫",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "dustmoths",
+        "display": "尘蛾",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "fishschools",
+        "display": "鱼群",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "gnarwail",
+        "display": "一角鲸",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "grassgekkos",
+        "display": "草壁虎转化",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "lightfliers",
+        "display": "球状光虫",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "moles_setting",
+        "display": "鼹鼠",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "monkey_setting",
+        "display": "穴居猴",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "mushgnome",
+        "display": "蘑菇地精",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "penguins",
+        "display": "企鸥",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "perd",
+        "display": "火鸡",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "pigs_setting",
+        "display": "猪",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "rabbits_setting",
+        "display": "兔子",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "rocky_setting",
+        "display": "石虾",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "slurtles_setting",
+        "display": "蛞蝓龟",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "snurtles",
+        "display": "蜗牛龟",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "wobsters",
+        "display": "龙虾",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
       }
-    }
+    ]
   },
-  "monsters": {
+  {
+    "name": "monsters",
     "display": "敌对生物",
-    "settings": {
-      "spider_dropper": {
-        "display": "穴居悬蛛",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "wasps": {
-        "display": "杀人蜂",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "frogs": {
-        "display": "青蛙",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "molebats": {
-        "display": "裸鼹蝠",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "squid": {
-        "display": "鱿鱼",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "nightmarecreatures": {
-        "display": "遗迹梦魇",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "pirateraids": {
-        "display": "月亮码头海盗",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "merms": {
-        "display": "鱼人",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "spider_spitter": {
-        "display": "喷射蜘蛛",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "sharks": {
-        "display": "鲨鱼",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "bats_setting": {
+    "options": [
+      {
+        "key": "bats_setting",
         "display": "蝙蝠",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
       },
-      "mutated_hounds": {
-        "display": "恐怖猎犬",
-        "default-value": "default",
-        "options": ["never", "default"],
-        "display-opts": ["无", "默认"]
-      },
-      "mosquitos": {
-        "display": "蚊子",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "walrus_setting": {
-        "display": "海象",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "hound_mounds": {
-        "display": "猎犬",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "spider_warriors": {
-        "display": "蜘蛛战士",
-        "default-value": "default",
-        "options": ["never", "default"],
-        "display-opts": ["无", "默认"]
-      },
-      "cookiecutters": {
+      {
+        "key": "cookiecutters",
         "display": "饼干切割机",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
       },
-      "lureplants": {
+      {
+        "key": "frogs",
+        "display": "青蛙",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "hound_mounds",
+        "display": "猎犬",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "lureplants",
         "display": "食人花",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
       },
-      "penguins_moon": {
-        "display": "月石企鸥",
-        "default-value": "default",
-        "options": ["never", "default"],
-        "display-opts": ["无", "默认"]
-      },
-      "spider_hider": {
-        "display": "洞穴蜘蛛",
-        "default-value": "default",
+      {
+        "key": "merms",
+        "display": "鱼人",
+        "value": "default",
         "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
       },
-      "spiders_setting": {
-        "display": "蜘蛛",
-        "default-value": "default",
+      {
+        "key": "molebats",
+        "display": "裸鼹蝠",
+        "value": "default",
         "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
       },
-      "moon_spider": {
+      {
+        "key": "moon_spider",
         "display": "破碎蜘蛛",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "mosquitos",
+        "display": "蚊子",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "mutated_hounds",
+        "display": "恐怖猎犬",
+        "value": "default",
+        "options": ["never", "default"],
+        "opts-display": ["无", "默认"]
+      },
+      {
+        "key": "nightmarecreatures",
+        "display": "遗迹梦魇",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "penguins_moon",
+        "display": "月石企鸥",
+        "value": "default",
+        "options": ["never", "default"],
+        "opts-display": ["无", "默认"]
+      },
+      {
+        "key": "pirateraids",
+        "display": "月亮码头海盗",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "sharks",
+        "display": "鲨鱼",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "spider_dropper",
+        "display": "穴居悬蛛",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "spider_hider",
+        "display": "洞穴蜘蛛",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "spider_spitter",
+        "display": "喷射蜘蛛",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "spider_warriors",
+        "display": "蜘蛛战士",
+        "value": "default",
+        "options": ["never", "default"],
+        "opts-display": ["无", "默认"]
+      },
+      {
+        "key": "spiders_setting",
+        "display": "蜘蛛",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "squid",
+        "display": "鱿鱼",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "walrus_setting",
+        "display": "海象",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "wasps",
+        "display": "杀人蜂",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
       }
-    }
+    ]
   },
-  "giants": {
+  {
+    "name": "giants",
     "display": "巨兽",
-    "settings": {
-      "antliontribute": {
+    "options": [
+      {
+        "key": "antliontribute",
         "display": "蚁狮贡品",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
       },
-      "crabking": {
-        "display": "帝王蟹",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "goosemoose": {
-        "display": "麋鹿鹅",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "eyeofterror": {
-        "display": "恐怖之眼",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "deerclops": {
-        "display": "独眼巨鹿",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "dragonfly": {
-        "display": "龙蝇",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "malbatross": {
-        "display": "邪天翁",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "fruitfly": {
-        "display": "果蝇王",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "liefs": {
-        "display": "树精守卫",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "bearger": {
+      {
+        "key": "bearger",
         "display": "熊獾",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
       },
-      "toadstool": {
-        "display": "毒菌蟾蜍",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "deciduousmonster": {
-        "display": "毒桦栗树",
-        "default-value": "default",
-        "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
-      },
-      "beequeen": {
+      {
+        "key": "beequeen",
         "display": "蜂王",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
       },
-      "klaus": {
+      {
+        "key": "crabking",
+        "display": "帝王蟹",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "deciduousmonster",
+        "display": "毒桦栗树",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "deerclops",
+        "display": "独眼巨鹿",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "dragonfly",
+        "display": "龙蝇",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "eyeofterror",
+        "display": "恐怖之眼",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "fruitfly",
+        "display": "果蝇王",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "goosemoose",
+        "display": "麋鹿鹅",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "klaus",
         "display": "克劳斯",
-        "default-value": "default",
+        "value": "default",
         "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
       },
-      "spiderqueen": {
-        "display": "蜘蛛女王",
-        "default-value": "default",
+      {
+        "key": "liefs",
+        "display": "树精守卫",
+        "value": "default",
         "options": ["never", "rare", "default", "often", "always"],
-        "display-opts": ["无", "很少", "默认", "较多", "大量"]
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "malbatross",
+        "display": "邪天翁",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "spiderqueen",
+        "display": "蜘蛛女王",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
+      },
+      {
+        "key": "toadstool",
+        "display": "毒菌蟾蜍",
+        "value": "default",
+        "options": ["never", "rare", "default", "often", "always"],
+        "opts-display": ["无", "很少", "默认", "较多", "大量"]
       }
-    }
+    ]
   }
-}
+]

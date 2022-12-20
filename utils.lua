@@ -21,3 +21,14 @@ function Split(input, char)
   end
   return array
 end
+
+function GetSortedKeyArray(obj)  
+  local key_array = {}
+  local n = 0
+  for k, _ in pairs(obj) do
+    n = n + 1
+    key_array[n] = k
+  end
+  table.sort(key_array)
+  return key_array
+end
