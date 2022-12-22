@@ -6,7 +6,7 @@
       {
         "key": "season_start",
         "display": "Starting Season",
-        "value": "default",
+        "index": 0,
         "options": ["default", "winter", "spring", "summer", "autumn|spring", "winter|summer", "autumn|winter|spring|summer"],
         "opts-display": ["Autumn", "Winter", "Spring", "Summer", "Autumn or Spring", "Winter or Summer", "Random"]
       }
@@ -19,84 +19,84 @@
       {
         "key": "boons",
         "display": "Failed Survivors",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "branching",
         "display": "Branches",
-        "value": "default",
+        "index": 2,
         "options": ["never", "least", "default", "most", "random"],
         "opts-display": ["Never", "Least", "Default", "Most", "Random"]
       },
       {
         "key": "loop",
         "display": "Loops",
-        "value": "default",
+        "index": 1,
         "options": ["never", "default", "always"],
         "opts-display": ["Never", "Default", "Always"]
       },
       {
         "key": "moon_fissure",
         "display": "Celestial Fissures",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "prefabswaps_start",
         "display": "Starting Resource Variety",
-        "value": "default",
+        "index": 1,
         "options": ["classic", "default", "highly random"],
         "opts-display": ["Classic", "Default", "Highly Random"]
       },
       {
         "key": "roads",
         "display": "Roads",
-        "value": "default",
+        "index": 1,
         "options": ["never", "default"],
         "opts-display": ["None", "Default"]
       },
       {
         "key": "stageplays",
         "display": "Stage Plays",
-        "value": "default",
+        "index": 1,
         "options": ["never", "default"],
         "opts-display": ["None", "Default"]
       },
       {
         "key": "start_location",
         "display": "Spawn Area",
-        "value": "default",
-        "options": ["darkness", "default", "plus"],
-        "opts-display": ["Dark", "Default", "Plus"]
+        "index": 2,
+        "options": ["plus", "darkness", "default"],
+        "opts-display": ["Plus", "Dark", "Default"]
       },
       {
         "key": "task_set",
         "display": "Biomes",
-        "value": "default",
+        "index": 0,
         "options": ["default", "classic"],
         "opts-display": ["Together", "Classic"]
       },
       {
         "key": "terrariumchest",
         "display": "Terrarium",
-        "value": "default",
+        "index": 1,
         "options": ["never", "default"],
         "opts-display": ["None", "Default"]
       },
       {
         "key": "touchstone",
         "display": "Touch Stones",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "world_size",
         "display": "World Size",
-        "value": "default",
+        "index": 2,
         "options": ["small", "medium", "default", "huge"],
         "opts-display": ["Small", "Medium", "Large", "Huge"]
       }
@@ -109,182 +109,182 @@
       {
         "key": "berrybush",
         "display": "Berry Bushes",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "cactus",
         "display": "Cacti",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "carrot",
         "display": "Carrots",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "flint",
         "display": "Flint",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "flowers",
         "display": "Flowers, Evil Flowers",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "grass",
         "display": "Grass",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "marshbush",
         "display": "Spiky Bushes",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "meteorspawner",
         "display": "Meteor Fields",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "moon_berrybush",
         "display": "Stone Fruit Bushes",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "moon_bullkelp",
         "display": "Beached Bull Kelp",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "moon_hotspring",
         "display": "Hot Springs",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "moon_rock",
         "display": "Lunar Rocks",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "moon_sapling",
         "display": "Lunar Saplings",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "moon_starfish",
         "display": "Anenemies",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "moon_tree",
         "display": "Lune Trees",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "mushroom",
         "display": "Mushrooms",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "ocean_bullkelp",
         "display": "Bull Kelp",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "ocean_seastack",
         "display": "Sea Stacks",
-        "value": "ocean_default",
+        "index": 3,
         "options": ["ocean_never", "ocean_rare", "ocean_uncommon", "ocean_default", "ocean_often", "ocean_mostly", "ocean_always", "ocean_insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "palmconetree",
         "display": "Palmcone Tree",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "ponds",
         "display": "Ponds",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "reeds",
         "display": "Reeds",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "rock",
         "display": "Boulders",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "rock_ice",
         "display": "Mini Glaciers",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "sapling",
         "display": "Saplings",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "trees",
         "display": "Trees (All)",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "tumbleweed",
         "display": "Tumbleweeds",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       }
@@ -297,84 +297,84 @@
       {
         "key": "beefalo",
         "display": "Beefalos",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "bees",
         "display": "Bee Hives",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "buzzard",
         "display": "Buzzards",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "catcoon",
         "display": "Hollow Stump",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "lightninggoat",
         "display": "Volt Goats",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "moles",
         "display": "Mole Burrows",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "moon_carrot",
         "display": "Carrats",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "moon_fruitdragon",
         "display": "Saladmander",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "ocean_shoal",
         "display": "Shoals",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "ocean_wobsterden",
         "display": "Wobster Mounds",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "pigs",
         "display": "Pig Houses",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "rabbits",
         "display": "Rabbit Holes",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       }
@@ -387,70 +387,70 @@
       {
         "key": "angrybees",
         "display": "Killer Bee Hives",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "chess",
         "display": "Clockworks",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "houndmound",
         "display": "Hound Mounds",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "merm",
         "display": "Leaky Shack",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "moon_spiders",
         "display": "Shattered Spider Holes",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "ocean_waterplant",
         "display": "Sea Weeds",
-        "value": "ocean_default",
+        "index": 3,
         "options": ["ocean_never", "ocean_rare", "ocean_uncommon", "ocean_default", "ocean_often", "ocean_mostly", "ocean_always", "ocean_insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "spiders",
         "display": "Spider Dens",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "tallbirds",
         "display": "Tallbirds",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "tentacles",
         "display": "Tentacles",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       },
       {
         "key": "walrus",
         "display": "MacTusk Camps",
-        "value": "default",
+        "index": 3,
         "options": ["never", "rare", "uncommon", "default", "often", "mostly", "always", "insane"],
         "opts-display": ["None", "Little", "Less", "Default", "More", "Lots", "Tons", "Insane"]
       }

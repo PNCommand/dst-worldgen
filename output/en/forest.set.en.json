@@ -6,91 +6,91 @@
       {
         "key": "autumn",
         "display": "Autumn",
-        "value": "default",
+        "index": 3,
         "options": ["noseason", "veryshortseason", "shortseason", "default", "longseason", "verylongseason", "random"],
         "opts-display": ["None", "Very Short", "Short", "Default", "Long", "Very Long", "Random"]
       },
       {
         "key": "beefaloheat",
         "display": "Beefalo Mating Frequency",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "day",
         "display": "Day Type",
-        "value": "default",
+        "index": 0,
         "options": ["default", "longday", "longdusk", "longnight", "noday", "nodusk", "nonight", "onlyday", "onlydusk", "onlynight"],
         "opts-display": ["Default", "Long Day", "Long Dusk", "Long Night", "No Day", "No Dusk", "No Night", "Only Day", "Only Dusk", "Only Night"]
       },
       {
         "key": "ghostenabled",
         "display": "Survivor Death",
-        "value": "always",
+        "index": 1,
         "options": ["none", "always"],
         "opts-display": ["Change Survivor", "Become a Ghost"]
       },
       {
         "key": "ghostsanitydrain",
         "display": "Ghost Sanity Drain",
-        "value": "always",
+        "index": 1,
         "options": ["none", "always"],
         "opts-display": ["Disabled", "Enabled"]
       },
       {
         "key": "krampus",
         "display": "Krampii",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "portalresurection",
         "display": "Revive At Florid Postern",
-        "value": "none",
+        "index": 0,
         "options": ["none", "always"],
         "opts-display": ["Disabled", "Enabled"]
       },
       {
         "key": "resettime",
         "display": "Death Reset Timer",
-        "value": "default",
+        "index": 2,
         "options": ["none", "slow", "default", "fast", "always"],
         "opts-display": ["Disabled", "Slow", "Default", "Fast", "Instant"]
       },
       {
         "key": "spawnmode",
         "display": "Spawn Mode",
-        "value": "fixed",
+        "index": 0,
         "options": ["fixed", "scatter"],
         "opts-display": ["Florid Postern", "Random"]
       },
       {
         "key": "specialevent",
         "display": "Events",
-        "value": "default",
+        "index": 1,
         "options": ["none", "default"],
         "opts-display": ["None", "Auto"]
       },
       {
         "key": "spring",
         "display": "Spring",
-        "value": "default",
+        "index": 3,
         "options": ["noseason", "veryshortseason", "shortseason", "default", "longseason", "verylongseason", "random"],
         "opts-display": ["None", "Very Short", "Short", "Default", "Long", "Very Long", "Random"]
       },
       {
         "key": "summer",
         "display": "Summer",
-        "value": "default",
+        "index": 3,
         "options": ["noseason", "veryshortseason", "shortseason", "default", "longseason", "verylongseason", "random"],
         "opts-display": ["None", "Very Short", "Short", "Default", "Long", "Very Long", "Random"]
       },
       {
         "key": "winter",
         "display": "Winter",
-        "value": "default",
+        "index": 3,
         "options": ["noseason", "veryshortseason", "shortseason", "default", "longseason", "verylongseason", "random"],
         "opts-display": ["None", "Very Short", "Short", "Default", "Long", "Very Long", "Random"]
       }
@@ -103,63 +103,63 @@
       {
         "key": "crow_carnival",
         "display": "Midsummer Cawnival",
-        "value": "default",
+        "index": 0,
         "options": ["default", "enabled"],
         "opts-display": ["Default", "Always"]
       },
       {
         "key": "hallowed_nights",
         "display": "Hallowed Nights",
-        "value": "default",
+        "index": 0,
         "options": ["default", "enabled"],
         "opts-display": ["Default", "Always"]
       },
       {
         "key": "winters_feast",
         "display": "Winter's Feast",
-        "value": "default",
+        "index": 0,
         "options": ["default", "enabled"],
         "opts-display": ["Default", "Always"]
       },
       {
         "key": "year_of_the_beefalo",
         "display": "Year of the Beefalo",
-        "value": "default",
+        "index": 0,
         "options": ["default", "enabled"],
         "opts-display": ["Default", "Always"]
       },
       {
         "key": "year_of_the_carrat",
         "display": "Year of the Carrat",
-        "value": "default",
+        "index": 0,
         "options": ["default", "enabled"],
         "opts-display": ["Default", "Always"]
       },
       {
         "key": "year_of_the_catcoon",
         "display": "Year of the Catcoon",
-        "value": "default",
+        "index": 0,
         "options": ["default", "enabled"],
         "opts-display": ["Default", "Always"]
       },
       {
         "key": "year_of_the_gobbler",
         "display": "Year of the Gobbler",
-        "value": "default",
+        "index": 0,
         "options": ["default", "enabled"],
         "opts-display": ["Default", "Always"]
       },
       {
         "key": "year_of_the_pig",
         "display": "Year of the Pig King",
-        "value": "default",
+        "index": 0,
         "options": ["default", "enabled"],
         "opts-display": ["Default", "Always"]
       },
       {
         "key": "year_of_the_varg",
         "display": "Year of the Varg",
-        "value": "default",
+        "index": 0,
         "options": ["default", "enabled"],
         "opts-display": ["Default", "Always"]
       }
@@ -172,77 +172,77 @@
       {
         "key": "brightmarecreatures",
         "display": "Enlightenment Monsters",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "darkness",
         "display": "Darkness Damage",
-        "value": "default",
+        "index": 1,
         "options": ["nonlethal", "default"],
         "opts-display": ["Nonlethal", "Default"]
       },
       {
         "key": "dropeverythingondespawn",
         "display": "Drop Items on Disconnect",
-        "value": "default",
+        "index": 0,
         "options": ["default", "always"],
         "opts-display": ["Default", "Everything"]
       },
       {
         "key": "extrastartingitems",
         "display": "Extra Starting Resources",
-        "value": "default",
+        "index": 2,
         "options": ["0", "5", "default", "15", "20", "none"],
         "opts-display": ["Always", "After Day 5", "After Day 10", "After Day 15", "After Day 20", "Never"]
       },
       {
         "key": "healthpenalty",
         "display": "Max Health Penalty",
-        "value": "always",
+        "index": 1,
         "options": ["none", "always"],
         "opts-display": ["Disabled", "Enabled"]
       },
       {
         "key": "hunger",
         "display": "Hunger Damage",
-        "value": "default",
+        "index": 1,
         "options": ["nonlethal", "default"],
         "opts-display": ["Nonlethal", "Default"]
       },
       {
         "key": "lessdamagetaken",
         "display": "Damage Taken",
-        "value": "none",
+        "index": 1,
         "options": ["always", "none", "more"],
         "opts-display": ["Less", "Default", "More"]
       },
       {
         "key": "seasonalstartingitems",
         "display": "Seasonal Starting Items",
-        "value": "default",
+        "index": 1,
         "options": ["never", "default"],
         "opts-display": ["None", "Default"]
       },
       {
         "key": "shadowcreatures",
         "display": "Sanity Monsters",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "spawnprotection",
         "display": "Griefer Spawn Protection",
-        "value": "default",
+        "index": 1,
         "options": ["never", "default", "always"],
         "opts-display": ["None", "Auto Detect", "Always"]
       },
       {
         "key": "temperaturedamage",
         "display": "Temperature Damage",
-        "value": "default",
+        "index": 1,
         "options": ["nonlethal", "default"],
         "opts-display": ["Nonlethal", "Default"]
       }
@@ -255,98 +255,98 @@
       {
         "key": "alternatehunt",
         "display": "Hunt Surprises",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "atriumgate",
         "display": "Ancient Gateway",
-        "value": "default",
+        "index": 2,
         "options": ["veryslow", "slow", "default", "fast", "veryfast"],
         "opts-display": ["Very Slow", "Slow", "Default", "Fast", "Very Fast"]
       },
       {
         "key": "earthquakes",
         "display": "Earthquakes",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "frograin",
         "display": "Frog Rain",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "hounds",
         "display": "Hound Attacks",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "hunt",
         "display": "Hunts",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "lightning",
         "display": "Lightning",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "meteorshowers",
         "display": "Meteor Frequency",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "petrification",
         "display": "Forest Petrification",
-        "value": "default",
+        "index": 2,
         "options": ["none", "few", "default", "many", "max"],
         "opts-display": ["None", "Slow", "Default", "Fast", "Very Fast"]
       },
       {
         "key": "summerhounds",
         "display": "Fire Hound Waves",
-        "value": "default",
+        "index": 1,
         "options": ["never", "default"],
         "opts-display": ["None", "Default"]
       },
       {
         "key": "weather",
         "display": "Rain",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "wildfires",
         "display": "Wildfires",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "winterhounds",
         "display": "Ice Hound Waves",
-        "value": "default",
+        "index": 1,
         "options": ["never", "default"],
         "opts-display": ["None", "Default"]
       },
       {
         "key": "wormattacks",
         "display": "Cave Worm Attacks",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       }
@@ -359,112 +359,112 @@
       {
         "key": "basicresource_regrowth",
         "display": "Basic Resources",
-        "value": "none",
+        "index": 0,
         "options": ["none", "always"],
         "opts-display": ["Disabled", "Enabled"]
       },
       {
         "key": "cactus_regrowth",
         "display": "Cacti",
-        "value": "default",
+        "index": 3,
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
         "opts-display": ["None", "Very Slow", "Slow", "Default", "Fast", "Very Fast"]
       },
       {
         "key": "carrots_regrowth",
         "display": "Carrots",
-        "value": "default",
+        "index": 3,
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
         "opts-display": ["None", "Very Slow", "Slow", "Default", "Fast", "Very Fast"]
       },
       {
         "key": "deciduoustree_regrowth",
         "display": "Birchnut Trees",
-        "value": "default",
+        "index": 3,
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
         "opts-display": ["None", "Very Slow", "Slow", "Default", "Fast", "Very Fast"]
       },
       {
         "key": "evergreen_regrowth",
         "display": "Evergreens",
-        "value": "default",
+        "index": 3,
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
         "opts-display": ["None", "Very Slow", "Slow", "Default", "Fast", "Very Fast"]
       },
       {
         "key": "flower_cave_regrowth",
         "display": "Light Flower",
-        "value": "default",
+        "index": 3,
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
         "opts-display": ["None", "Very Slow", "Slow", "Default", "Fast", "Very Fast"]
       },
       {
         "key": "flowers_regrowth",
         "display": "Flowers",
-        "value": "default",
+        "index": 3,
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
         "opts-display": ["None", "Very Slow", "Slow", "Default", "Fast", "Very Fast"]
       },
       {
         "key": "lightflier_flower_regrowth",
         "display": "Lightbug Flower",
-        "value": "default",
+        "index": 3,
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
         "opts-display": ["None", "Very Slow", "Slow", "Default", "Fast", "Very Fast"]
       },
       {
         "key": "moon_tree_regrowth",
         "display": "Lune Trees",
-        "value": "default",
+        "index": 3,
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
         "opts-display": ["None", "Very Slow", "Slow", "Default", "Fast", "Very Fast"]
       },
       {
         "key": "mushtree_moon_regrowth",
         "display": "Lunar Mushtrees",
-        "value": "default",
+        "index": 3,
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
         "opts-display": ["None", "Very Slow", "Slow", "Default", "Fast", "Very Fast"]
       },
       {
         "key": "mushtree_regrowth",
         "display": "Mushroom Trees",
-        "value": "default",
+        "index": 3,
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
         "opts-display": ["None", "Very Slow", "Slow", "Default", "Fast", "Very Fast"]
       },
       {
         "key": "palmconetree_regrowth",
         "display": "Palmcone Tree",
-        "value": "default",
+        "index": 3,
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
         "opts-display": ["None", "Very Slow", "Slow", "Default", "Fast", "Very Fast"]
       },
       {
         "key": "reeds_regrowth",
         "display": "Reeds",
-        "value": "default",
+        "index": 3,
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
         "opts-display": ["None", "Very Slow", "Slow", "Default", "Fast", "Very Fast"]
       },
       {
         "key": "regrowth",
         "display": "Regrowth Multiplier",
-        "value": "default",
+        "index": 3,
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
         "opts-display": ["None", "Very Slow", "Slow", "Default", "Fast", "Very Fast"]
       },
       {
         "key": "saltstack_regrowth",
         "display": "Salt Formations",
-        "value": "default",
+        "index": 3,
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
         "opts-display": ["None", "Very Slow", "Slow", "Default", "Fast", "Very Fast"]
       },
       {
         "key": "twiggytrees_regrowth",
         "display": "Twiggy Trees",
-        "value": "default",
+        "index": 3,
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
         "opts-display": ["None", "Very Slow", "Slow", "Default", "Fast", "Very Fast"]
       }
@@ -477,42 +477,42 @@
       {
         "key": "bananabush_portalrate",
         "display": "Banana Bushes",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "lightcrab_portalrate",
         "display": "Crustashines",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "monkeytail_portalrate",
         "display": "Monkeytails",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "palmcone_seed_portalrate",
         "display": "Palmcone Sprouts",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "portal_spawnrate",
         "display": "Portal Activity",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "powder_monkey_portalrate",
         "display": "Powder Monkeys",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       }
@@ -525,147 +525,147 @@
       {
         "key": "bees_setting",
         "display": "Bees",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "birds",
         "display": "Birds",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "bunnymen_setting",
         "display": "Bunnymen",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "butterfly",
         "display": "Butterflies",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "catcoons",
         "display": "Catcoons",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "dustmoths",
         "display": "Dust Moths",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "fishschools",
         "display": "Schools of Fish",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "gnarwail",
         "display": "Gnarwails",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "grassgekkos",
         "display": "Grass Gekko Morphing",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "lightfliers",
         "display": "Bulbous Lightbugs",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "moles_setting",
         "display": "Moles",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "monkey_setting",
         "display": "Splumonkeys",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "mushgnome",
         "display": "Mush Gnomes",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "penguins",
         "display": "Pengulls",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "perd",
         "display": "Gobblers",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "pigs_setting",
         "display": "Pigs",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "rabbits_setting",
         "display": "Rabbits",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "rocky_setting",
         "display": "Rock Lobsters",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "slurtles_setting",
         "display": "Slurtles",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "snurtles",
         "display": "Snurtles",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "wobsters",
         "display": "Wobsters",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       }
@@ -678,154 +678,154 @@
       {
         "key": "bats_setting",
         "display": "Bats",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "cookiecutters",
         "display": "Cookie Cutters",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "frogs",
         "display": "Frogs",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "hound_mounds",
         "display": "Hounds",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "lureplants",
         "display": "Lureplants",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "merms",
         "display": "Merms",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "molebats",
         "display": "Naked Mole Bats",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "moon_spider",
         "display": "Shattered Spiders",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "mosquitos",
         "display": "Mosquitos",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "mutated_hounds",
         "display": "Horror Hounds",
-        "value": "default",
+        "index": 1,
         "options": ["never", "default"],
         "opts-display": ["None", "Default"]
       },
       {
         "key": "nightmarecreatures",
         "display": "Ruins Nightmares",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "penguins_moon",
         "display": "Moonrock Pengulls",
-        "value": "default",
+        "index": 1,
         "options": ["never", "default"],
         "opts-display": ["None", "Default"]
       },
       {
         "key": "pirateraids",
         "display": "Moon Quay Pirates",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "sharks",
         "display": "Sharks",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "spider_dropper",
         "display": "Dangling Depth Dwellers",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "spider_hider",
         "display": "Cave Spiders",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "spider_spitter",
         "display": "Spitter Spiders",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "spider_warriors",
         "display": "Spider Warriors",
-        "value": "default",
+        "index": 1,
         "options": ["never", "default"],
         "opts-display": ["None", "Default"]
       },
       {
         "key": "spiders_setting",
         "display": "Spiders",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "squid",
         "display": "Skittersquids",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "walrus_setting",
         "display": "MacTusk",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "wasps",
         "display": "Killer Bees",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       }
@@ -838,105 +838,105 @@
       {
         "key": "antliontribute",
         "display": "Antlion Tribute",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "bearger",
         "display": "Bearger",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "beequeen",
         "display": "Bee Queen",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "crabking",
         "display": "Crabking",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "deciduousmonster",
         "display": "Poison Birchnut Trees",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "deerclops",
         "display": "Deerclops",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "dragonfly",
         "display": "Dragonfly",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "eyeofterror",
         "display": "Eye of Terror",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "fruitfly",
         "display": "Lord of the Fruit Flies",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "goosemoose",
         "display": "Meese/Geese",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "klaus",
         "display": "Klaus",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "liefs",
         "display": "Treeguards",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "malbatross",
         "display": "Malbatross",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "spiderqueen",
         "display": "Spider Queen",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       },
       {
         "key": "toadstool",
         "display": "Toadstool",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["None", "Little", "Default", "More", "Tons"]
       }

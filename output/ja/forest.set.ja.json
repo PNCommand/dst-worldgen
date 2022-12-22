@@ -6,91 +6,91 @@
       {
         "key": "autumn",
         "display": "秋",
-        "value": "default",
+        "index": 3,
         "options": ["noseason", "veryshortseason", "shortseason", "default", "longseason", "verylongseason", "random"],
         "opts-display": ["なし", "とても短い", "短い", "デフォルト", "長い", "とても長い", "ランダム"]
       },
       {
         "key": "beefaloheat",
         "display": "ビーファロー繁殖期の頻度",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "day",
         "display": "昼の長さ",
-        "value": "default",
+        "index": 0,
         "options": ["default", "longday", "longdusk", "longnight", "noday", "nodusk", "nonight", "onlyday", "onlydusk", "onlynight"],
         "opts-display": ["デフォルト", "長い 昼間", "長い 夕暮れ", "長い 夜", "いいえ 昼間", "いいえ 夕暮れ", "いいえ 夜", "唯一の 昼間", "唯一の 夕暮れ", "唯一の 夜"]
       },
       {
         "key": "ghostenabled",
         "display": "生存者の死",
-        "value": "always",
+        "index": 1,
         "options": ["none", "always"],
         "opts-display": ["生存者を変更", "幽霊になる"]
       },
       {
         "key": "ghostsanitydrain",
         "display": "幽霊によるSAN低下",
-        "value": "always",
+        "index": 1,
         "options": ["none", "always"],
         "opts-display": ["オフ", "オン"]
       },
       {
         "key": "krampus",
         "display": "クランパス",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "portalresurection",
         "display": "「赤バラの門」で蘇生",
-        "value": "none",
+        "index": 0,
         "options": ["none", "always"],
         "opts-display": ["オフ", "オン"]
       },
       {
         "key": "resettime",
         "display": "死亡リセットタイマー",
-        "value": "default",
+        "index": 2,
         "options": ["none", "slow", "default", "fast", "always"],
         "opts-display": ["オフ", "遅い", "デフォルト", "速い", "即時"]
       },
       {
         "key": "spawnmode",
         "display": "スポーンモード",
-        "value": "fixed",
+        "index": 0,
         "options": ["fixed", "scatter"],
         "opts-display": ["飾りのついた門", "ランダム"]
       },
       {
         "key": "specialevent",
         "display": "イベント",
-        "value": "default",
+        "index": 1,
         "options": ["none", "default"],
         "opts-display": ["なし", "自動"]
       },
       {
         "key": "spring",
         "display": "春",
-        "value": "default",
+        "index": 3,
         "options": ["noseason", "veryshortseason", "shortseason", "default", "longseason", "verylongseason", "random"],
         "opts-display": ["なし", "とても短い", "短い", "デフォルト", "長い", "とても長い", "ランダム"]
       },
       {
         "key": "summer",
         "display": "夏",
-        "value": "default",
+        "index": 3,
         "options": ["noseason", "veryshortseason", "shortseason", "default", "longseason", "verylongseason", "random"],
         "opts-display": ["なし", "とても短い", "短い", "デフォルト", "長い", "とても長い", "ランダム"]
       },
       {
         "key": "winter",
         "display": "冬",
-        "value": "default",
+        "index": 3,
         "options": ["noseason", "veryshortseason", "shortseason", "default", "longseason", "verylongseason", "random"],
         "opts-display": ["なし", "とても短い", "短い", "デフォルト", "長い", "とても長い", "ランダム"]
       }
@@ -103,63 +103,63 @@
       {
         "key": "crow_carnival",
         "display": "夏至祭カーカーニバル",
-        "value": "default",
+        "index": 0,
         "options": ["default", "enabled"],
         "opts-display": ["デフォルト", "いつも"]
       },
       {
         "key": "hallowed_nights",
         "display": "神聖な夜",
-        "value": "default",
+        "index": 0,
         "options": ["default", "enabled"],
         "opts-display": ["デフォルト", "いつも"]
       },
       {
         "key": "winters_feast",
         "display": "冬のお祭り",
-        "value": "default",
+        "index": 0,
         "options": ["default", "enabled"],
         "opts-display": ["デフォルト", "いつも"]
       },
       {
         "key": "year_of_the_beefalo",
         "display": "ビーファロの年",
-        "value": "default",
+        "index": 0,
         "options": ["default", "enabled"],
         "opts-display": ["デフォルト", "いつも"]
       },
       {
         "key": "year_of_the_carrat",
         "display": "カラットの年",
-        "value": "default",
+        "index": 0,
         "options": ["default", "enabled"],
         "opts-display": ["デフォルト", "いつも"]
       },
       {
         "key": "year_of_the_catcoon",
         "display": "ニャライグマの年",
-        "value": "default",
+        "index": 0,
         "options": ["default", "enabled"],
         "opts-display": ["デフォルト", "いつも"]
       },
       {
         "key": "year_of_the_gobbler",
         "display": "パックンチョウの年",
-        "value": "default",
+        "index": 0,
         "options": ["default", "enabled"],
         "opts-display": ["デフォルト", "いつも"]
       },
       {
         "key": "year_of_the_pig",
         "display": "豚王の年",
-        "value": "default",
+        "index": 0,
         "options": ["default", "enabled"],
         "opts-display": ["デフォルト", "いつも"]
       },
       {
         "key": "year_of_the_varg",
         "display": "ヴァーグの年",
-        "value": "default",
+        "index": 0,
         "options": ["default", "enabled"],
         "opts-display": ["デフォルト", "いつも"]
       }
@@ -172,77 +172,77 @@
       {
         "key": "brightmarecreatures",
         "display": "開眼モンスター",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "darkness",
         "display": "暗闇ダメージ",
-        "value": "default",
+        "index": 1,
         "options": ["nonlethal", "default"],
         "opts-display": ["非殺傷", "デフォルト"]
       },
       {
         "key": "dropeverythingondespawn",
         "display": "切断時にアイテムをドロップ",
-        "value": "default",
+        "index": 0,
         "options": ["default", "always"],
         "opts-display": ["デフォルト", "すべて"]
       },
       {
         "key": "extrastartingitems",
         "display": "開始時の資源増加",
-        "value": "default",
+        "index": 2,
         "options": ["0", "5", "default", "15", "20", "none"],
         "opts-display": ["いつも", "5日後", "10日後", "15日後", "20日後", "ありえない"]
       },
       {
         "key": "healthpenalty",
         "display": "最大HPペナルティ",
-        "value": "always",
+        "index": 1,
         "options": ["none", "always"],
         "opts-display": ["オフ", "オン"]
       },
       {
         "key": "hunger",
         "display": "空腹ダメージ",
-        "value": "default",
+        "index": 1,
         "options": ["nonlethal", "default"],
         "opts-display": ["非殺傷", "デフォルト"]
       },
       {
         "key": "lessdamagetaken",
         "display": "被ダメージ",
-        "value": "none",
+        "index": 1,
         "options": ["always", "none", "more"],
         "opts-display": ["少ない", "デフォルト", "もっと"]
       },
       {
         "key": "seasonalstartingitems",
         "display": "季節ごとの初期アイテム",
-        "value": "default",
+        "index": 1,
         "options": ["never", "default"],
         "opts-display": ["なし", "デフォルト"]
       },
       {
         "key": "shadowcreatures",
         "display": "SANモンスター",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "spawnprotection",
         "display": "荒らしスポーンプロテクション",
-        "value": "default",
+        "index": 1,
         "options": ["never", "default", "always"],
         "opts-display": ["なし", "自動検知", "いつも"]
       },
       {
         "key": "temperaturedamage",
         "display": "温度ダメージ",
-        "value": "default",
+        "index": 1,
         "options": ["nonlethal", "default"],
         "opts-display": ["非殺傷", "デフォルト"]
       }
@@ -255,98 +255,98 @@
       {
         "key": "alternatehunt",
         "display": "狩りのサプライズ",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "atriumgate",
         "display": "いにしえのポータル",
-        "value": "default",
+        "index": 2,
         "options": ["veryslow", "slow", "default", "fast", "veryfast"],
         "opts-display": ["とても遅い", "遅い", "デフォルト", "速い", "とても速い"]
       },
       {
         "key": "earthquakes",
         "display": "地震",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "frograin",
         "display": "カエルの雨",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "hounds",
         "display": "ハウンドの襲撃",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "hunt",
         "display": "獣の足跡",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "lightning",
         "display": "落雷",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "meteorshowers",
         "display": "いん石墜落頻度",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "petrification",
         "display": "森林の石化",
-        "value": "default",
+        "index": 2,
         "options": ["none", "few", "default", "many", "max"],
         "opts-display": ["なし", "遅い", "デフォルト", "速い", "とても速い"]
       },
       {
         "key": "summerhounds",
         "display": "ファイアハウンドのウェーブ",
-        "value": "default",
+        "index": 1,
         "options": ["never", "default"],
         "opts-display": ["なし", "デフォルト"]
       },
       {
         "key": "weather",
         "display": "雨",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "wildfires",
         "display": "野火",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "winterhounds",
         "display": "アイスハウンドのウェーブ",
-        "value": "default",
+        "index": 1,
         "options": ["never", "default"],
         "opts-display": ["なし", "デフォルト"]
       },
       {
         "key": "wormattacks",
         "display": "洞窟の虫の攻撃",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       }
@@ -359,112 +359,112 @@
       {
         "key": "basicresource_regrowth",
         "display": "基本材料",
-        "value": "none",
+        "index": 0,
         "options": ["none", "always"],
         "opts-display": ["オフ", "オン"]
       },
       {
         "key": "cactus_regrowth",
         "display": "サボテン",
-        "value": "default",
+        "index": 3,
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
         "opts-display": ["なし", "とても遅い", "遅い", "デフォルト", "速い", "とても速い"]
       },
       {
         "key": "carrots_regrowth",
         "display": "ニンジン",
-        "value": "default",
+        "index": 3,
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
         "opts-display": ["なし", "とても遅い", "遅い", "デフォルト", "速い", "とても速い"]
       },
       {
         "key": "deciduoustree_regrowth",
         "display": "バーチナッツの木",
-        "value": "default",
+        "index": 3,
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
         "opts-display": ["なし", "とても遅い", "遅い", "デフォルト", "速い", "とても速い"]
       },
       {
         "key": "evergreen_regrowth",
         "display": "常緑樹",
-        "value": "default",
+        "index": 3,
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
         "opts-display": ["なし", "とても遅い", "遅い", "デフォルト", "速い", "とても速い"]
       },
       {
         "key": "flower_cave_regrowth",
         "display": "ライトフラワー",
-        "value": "default",
+        "index": 3,
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
         "opts-display": ["なし", "とても遅い", "遅い", "デフォルト", "速い", "とても速い"]
       },
       {
         "key": "flowers_regrowth",
         "display": "花",
-        "value": "default",
+        "index": 3,
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
         "opts-display": ["なし", "とても遅い", "遅い", "デフォルト", "速い", "とても速い"]
       },
       {
         "key": "lightflier_flower_regrowth",
         "display": "ヒカリムシの花",
-        "value": "default",
+        "index": 3,
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
         "opts-display": ["なし", "とても遅い", "遅い", "デフォルト", "速い", "とても速い"]
       },
       {
         "key": "moon_tree_regrowth",
         "display": "三日月の木",
-        "value": "default",
+        "index": 3,
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
         "opts-display": ["なし", "とても遅い", "遅い", "デフォルト", "速い", "とても速い"]
       },
       {
         "key": "mushtree_moon_regrowth",
         "display": "ルナマッシュツリー",
-        "value": "default",
+        "index": 3,
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
         "opts-display": ["なし", "とても遅い", "遅い", "デフォルト", "速い", "とても速い"]
       },
       {
         "key": "mushtree_regrowth",
         "display": "マッシュツリー",
-        "value": "default",
+        "index": 3,
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
         "opts-display": ["なし", "とても遅い", "遅い", "デフォルト", "速い", "とても速い"]
       },
       {
         "key": "palmconetree_regrowth",
         "display": "パルムコーンの木",
-        "value": "default",
+        "index": 3,
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
         "opts-display": ["なし", "とても遅い", "遅い", "デフォルト", "速い", "とても速い"]
       },
       {
         "key": "reeds_regrowth",
         "display": "アシ",
-        "value": "default",
+        "index": 3,
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
         "opts-display": ["なし", "とても遅い", "遅い", "デフォルト", "速い", "とても速い"]
       },
       {
         "key": "regrowth",
         "display": "再生倍率",
-        "value": "default",
+        "index": 3,
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
         "opts-display": ["なし", "とても遅い", "遅い", "デフォルト", "速い", "とても速い"]
       },
       {
         "key": "saltstack_regrowth",
         "display": "塩のフォーメーション",
-        "value": "default",
+        "index": 3,
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
         "opts-display": ["なし", "とても遅い", "遅い", "デフォルト", "速い", "とても速い"]
       },
       {
         "key": "twiggytrees_regrowth",
         "display": "ヒョロヒョロの木",
-        "value": "default",
+        "index": 3,
         "options": ["never", "veryslow", "slow", "default", "fast", "veryfast"],
         "opts-display": ["なし", "とても遅い", "遅い", "デフォルト", "速い", "とても速い"]
       }
@@ -477,42 +477,42 @@
       {
         "key": "bananabush_portalrate",
         "display": "バナナブッシュ",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "lightcrab_portalrate",
         "display": "光殻類",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "monkeytail_portalrate",
         "display": "サルノオ",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "palmcone_seed_portalrate",
         "display": "パルムコーンの芽",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "portal_spawnrate",
         "display": "ポータル活動",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "powder_monkey_portalrate",
         "display": "パウダー・モンキー",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       }
@@ -525,147 +525,147 @@
       {
         "key": "bees_setting",
         "display": "ハチ",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "birds",
         "display": "鳥",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "bunnymen_setting",
         "display": "バニーマン",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "butterfly",
         "display": "チョウ",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "catcoons",
         "display": "ニャライグマ",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "dustmoths",
         "display": "ホコリガ",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "fishschools",
         "display": "魚の群れ",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "gnarwail",
         "display": "ナルヴァイル",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "grassgekkos",
         "display": "クサトカゲの変異",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "lightfliers",
         "display": "キュウコンヒカリムシ",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "moles_setting",
         "display": "モグラ",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "monkey_setting",
         "display": "スプルモンキー",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "mushgnome",
         "display": "マッシュノーム",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "penguins",
         "display": "ペンガル",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "perd",
         "display": "パックンチョウ",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "pigs_setting",
         "display": "ピッグ",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "rabbits_setting",
         "display": "ウサギ",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "rocky_setting",
         "display": "ロックロブスター",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "slurtles_setting",
         "display": "スラートル",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "snurtles",
         "display": "スナートル",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "wobsters",
         "display": "ウォブスター",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       }
@@ -678,154 +678,154 @@
       {
         "key": "bats_setting",
         "display": "バットリスク",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "cookiecutters",
         "display": "クッキーカッター",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "frogs",
         "display": "カエル",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "hound_mounds",
         "display": "ハウンド",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "lureplants",
         "display": "ミートプラント",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "merms",
         "display": "マーム",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "molebats",
         "display": "ハダカモグラコウモリ",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "moon_spider",
         "display": "壊されたクモ",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "mosquitos",
         "display": "蚊",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "mutated_hounds",
         "display": "ホラーハウンド",
-        "value": "default",
+        "index": 1,
         "options": ["never", "default"],
         "opts-display": ["なし", "デフォルト"]
       },
       {
         "key": "nightmarecreatures",
         "display": "遺跡の悪夢",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "penguins_moon",
         "display": "ムーンロックペンギンカモメ",
-        "value": "default",
+        "index": 1,
         "options": ["never", "default"],
         "opts-display": ["なし", "デフォルト"]
       },
       {
         "key": "pirateraids",
         "display": "ムーン・キー海賊団",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "sharks",
         "display": "サメ",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "spider_dropper",
         "display": "ぶら下がりの深みの住人",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "spider_hider",
         "display": "洞窟グモ",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "spider_spitter",
         "display": "ツバハキグモ",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "spider_warriors",
         "display": "クモ戦士",
-        "value": "default",
+        "index": 1,
         "options": ["never", "default"],
         "opts-display": ["なし", "デフォルト"]
       },
       {
         "key": "spiders_setting",
         "display": "スパイダー",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "squid",
         "display": "スキッタースクイッド",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "walrus_setting",
         "display": "チウィーセ",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "wasps",
         "display": "キラービー",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       }
@@ -838,105 +838,105 @@
       {
         "key": "antliontribute",
         "display": "アントライオンへの捧げ物",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "bearger",
         "display": "アナグマグマ",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "beequeen",
         "display": "女王蜂",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "crabking",
         "display": "クラブキング",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "deciduousmonster",
         "display": "ポイズンカバノキ",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "deerclops",
         "display": "ディアクロップス",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "dragonfly",
         "display": "ドラゴンフライ",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "eyeofterror",
         "display": "恐怖の目",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "fruitfly",
         "display": "クダモノバエの王",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "goosemoose",
         "display": "ムース/グース",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "klaus",
         "display": "クラウス",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "liefs",
         "display": "森の番人",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "malbatross",
         "display": "極悪アルバトロス",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "spiderqueen",
         "display": "スパイダークイーン",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       },
       {
         "key": "toadstool",
         "display": "毒キノコ",
-        "value": "default",
+        "index": 2,
         "options": ["never", "rare", "default", "often", "always"],
         "opts-display": ["なし", "ちっこい", "デフォルト", "もっと", "いっぱい"]
       }
