@@ -217,7 +217,7 @@ local function output_json(is_gen, world_type)
     output:write(json_prefix_lv1.."{\n")
     output:write(json_prefix_lv2.."\"name\": \""..group_key.."\",\n")
     output:write(json_prefix_lv2.."\"display\": \""..group_data.text.."\",\n")
-    output:write(json_prefix_lv2.."\"options\": [\n")
+    output:write(json_prefix_lv2.."\"items\": [\n")
 
     local items_size = 0
     for _, data in pairs(group_data.items) do

@@ -2,7 +2,7 @@
   {
     "name": "global",
     "display": "全局",
-    "options": [
+    "items": [
       {
         "key": "season_start",
         "display": "起始季节",
@@ -15,7 +15,7 @@
   {
     "name": "misc",
     "display": "世界",
-    "options": [
+    "items": [
       {
         "key": "boons",
         "display": "失败的冒险家",
@@ -55,8 +55,8 @@
         "key": "start_location",
         "display": "出生点",
         "index": 0,
-        "options": ["default", "plus", "darkness"],
-        "opts-display": ["默认", "额外资源", "黑暗"]
+        "options": ["default", "darkness", "plus"],
+        "opts-display": ["默认", "黑暗", "额外资源"]
       },
       {
         "key": "task_set",
@@ -84,7 +84,7 @@
   {
     "name": "resources",
     "display": "资源",
-    "options": [
+    "items": [
       {
         "key": "banana",
         "display": "香蕉",
@@ -202,7 +202,7 @@
   {
     "name": "animals",
     "display": "生物以及刷新点",
-    "options": [
+    "items": [
       {
         "key": "bunnymen",
         "display": "兔屋",
@@ -243,7 +243,7 @@
   {
     "name": "monsters",
     "display": "敌对生物以及刷新点",
-    "options": [
+    "items": [
       {
         "key": "bats",
         "display": "蝙蝠",

@@ -2,7 +2,7 @@
   {
     "name": "global",
     "display": "Global",
-    "options": [
+    "items": [
       {
         "key": "season_start",
         "display": "Starting Season",
@@ -15,7 +15,7 @@
   {
     "name": "misc",
     "display": "World",
-    "options": [
+    "items": [
       {
         "key": "boons",
         "display": "Failed Survivors",
@@ -55,15 +55,15 @@
         "key": "start_location",
         "display": "Spawn Area",
         "index": 2,
-        "options": ["plus", "darkness", "default"],
-        "opts-display": ["Plus", "Dark", "Default"]
+        "options": ["darkness", "plus", "default"],
+        "opts-display": ["Dark", "Plus", "Default"]
       },
       {
         "key": "task_set",
         "display": "Biomes",
-        "index": 0,
-        "options": ["default", "classic"],
-        "opts-display": ["Together", "Classic"]
+        "index": 1,
+        "options": ["classic", "default"],
+        "opts-display": ["Classic", "Together"]
       },
       {
         "key": "touchstone",
@@ -84,7 +84,7 @@
   {
     "name": "resources",
     "display": "Resources",
-    "options": [
+    "items": [
       {
         "key": "banana",
         "display": "Bananas",
@@ -202,7 +202,7 @@
   {
     "name": "animals",
     "display": "Creatures and Spawners",
-    "options": [
+    "items": [
       {
         "key": "bunnymen",
         "display": "Rabbit Hutches",
@@ -243,7 +243,7 @@
   {
     "name": "monsters",
     "display": "Hostile Creatures and Spawners",
-    "options": [
+    "items": [
       {
         "key": "bats",
         "display": "Bats",

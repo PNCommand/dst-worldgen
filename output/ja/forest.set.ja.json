@@ -2,7 +2,7 @@
   {
     "name": "global",
     "display": "グローバル",
-    "options": [
+    "items": [
       {
         "key": "autumn",
         "display": "秋",
@@ -99,7 +99,7 @@
   {
     "name": "events",
     "display": "イベント",
-    "options": [
+    "items": [
       {
         "key": "crow_carnival",
         "display": "夏至祭カーカーニバル",
@@ -168,7 +168,7 @@
   {
     "name": "survivors",
     "display": "生存者",
-    "options": [
+    "items": [
       {
         "key": "brightmarecreatures",
         "display": "開眼モンスター",
@@ -251,7 +251,7 @@
   {
     "name": "misc",
     "display": "世界",
-    "options": [
+    "items": [
       {
         "key": "alternatehunt",
         "display": "狩りのサプライズ",
@@ -355,7 +355,7 @@
   {
     "name": "resources",
     "display": "資源の再生",
-    "options": [
+    "items": [
       {
         "key": "basicresource_regrowth",
         "display": "基本材料",
@@ -473,7 +473,7 @@
   {
     "name": "portal_resources",
     "display": "異常ポータル資源",
-    "options": [
+    "items": [
       {
         "key": "bananabush_portalrate",
         "display": "バナナブッシュ",
@@ -521,7 +521,7 @@
   {
     "name": "animals",
     "display": "生物",
-    "options": [
+    "items": [
       {
         "key": "bees_setting",
         "display": "ハチ",
@@ -674,7 +674,7 @@
   {
     "name": "monsters",
     "display": "敵対生物",
-    "options": [
+    "items": [
       {
         "key": "bats_setting",
         "display": "バットリスク",
@@ -834,7 +834,7 @@
   {
     "name": "giants",
     "display": "巨大",
-    "options": [
+    "items": [
       {
         "key": "antliontribute",
         "display": "アントライオンへの捧げ物",

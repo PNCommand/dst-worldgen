@@ -2,7 +2,7 @@
   {
     "name": "global",
     "display": "全局",
-    "options": [
+    "items": [
       {
         "key": "autumn",
         "display": "秋",
@@ -99,7 +99,7 @@
   {
     "name": "events",
     "display": "活动",
-    "options": [
+    "items": [
       {
         "key": "crow_carnival",
         "display": "盛夏鸦年华",
@@ -168,7 +168,7 @@
   {
     "name": "survivors",
     "display": "冒险家",
-    "options": [
+    "items": [
       {
         "key": "brightmarecreatures",
         "display": "启蒙怪兽",
@@ -251,7 +251,7 @@
   {
     "name": "misc",
     "display": "世界",
-    "options": [
+    "items": [
       {
         "key": "alternatehunt",
         "display": "追猎惊喜",
@@ -355,7 +355,7 @@
   {
     "name": "resources",
     "display": "资源再生",
-    "options": [
+    "items": [
       {
         "key": "basicresource_regrowth",
         "display": "基础资源",
@@ -473,7 +473,7 @@
   {
     "name": "portal_resources",
     "display": "非自然传送门资源",
-    "options": [
+    "items": [
       {
         "key": "bananabush_portalrate",
         "display": "香蕉丛",
@@ -521,7 +521,7 @@
   {
     "name": "animals",
     "display": "生物",
-    "options": [
+    "items": [
       {
         "key": "bees_setting",
         "display": "蜜蜂",
@@ -674,7 +674,7 @@
   {
     "name": "monsters",
     "display": "敌对生物",
-    "options": [
+    "items": [
       {
         "key": "bats_setting",
         "display": "蝙蝠",
@@ -834,7 +834,7 @@
   {
     "name": "giants",
     "display": "巨兽",
-    "options": [
+    "items": [
       {
         "key": "antliontribute",
         "display": "蚁狮贡品",

@@ -2,7 +2,7 @@
   {
     "name": "global",
     "display": "グローバル",
-    "options": [
+    "items": [
       {
         "key": "season_start",
         "display": "最初の季節",
@@ -15,7 +15,7 @@
   {
     "name": "misc",
     "display": "世界",
-    "options": [
+    "items": [
       {
         "key": "boons",
         "display": "倒れた冒険者",
@@ -68,16 +68,16 @@
       {
         "key": "start_location",
         "display": "産卵領域",
-        "index": 2,
-        "options": ["darkness", "plus", "default"],
-        "opts-display": ["暗い", "準備万端", "デフォルト"]
+        "index": 0,
+        "options": ["default", "plus", "darkness"],
+        "opts-display": ["デフォルト", "準備万端", "暗い"]
       },
       {
         "key": "task_set",
         "display": "生物",
-        "index": 1,
-        "options": ["classic", "default"],
-        "opts-display": ["クラシック", "Together"]
+        "index": 0,
+        "options": ["default", "classic"],
+        "opts-display": ["Together", "クラシック"]
       },
       {
         "key": "terrariumchest",
@@ -105,7 +105,7 @@
   {
     "name": "resources",
     "display": "資源",
-    "options": [
+    "items": [
       {
         "key": "berrybush",
         "display": "木イチゴの低木",
@@ -293,7 +293,7 @@
   {
     "name": "animals",
     "display": "生物とスポナー",
-    "options": [
+    "items": [
       {
         "key": "beefalo",
         "display": "ビーファロー",
@@ -383,7 +383,7 @@
   {
     "name": "monsters",
     "display": "敵対生物とスポナー",
-    "options": [
+    "items": [
       {
         "key": "angrybees",
         "display": "キラー蜂の巣",

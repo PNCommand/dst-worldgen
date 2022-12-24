@@ -2,7 +2,7 @@
   {
     "name": "global",
     "display": "Global",
-    "options": [
+    "items": [
       {
         "key": "autumn",
         "display": "Autumn",
@@ -99,7 +99,7 @@
   {
     "name": "events",
     "display": "Events",
-    "options": [
+    "items": [
       {
         "key": "crow_carnival",
         "display": "Midsummer Cawnival",
@@ -168,7 +168,7 @@
   {
     "name": "survivors",
     "display": "Survivors",
-    "options": [
+    "items": [
       {
         "key": "brightmarecreatures",
         "display": "Enlightenment Monsters",
@@ -251,7 +251,7 @@
   {
     "name": "misc",
     "display": "World",
-    "options": [
+    "items": [
       {
         "key": "alternatehunt",
         "display": "Hunt Surprises",
@@ -355,7 +355,7 @@
   {
     "name": "resources",
     "display": "Resource Regrowth",
-    "options": [
+    "items": [
       {
         "key": "basicresource_regrowth",
         "display": "Basic Resources",
@@ -473,7 +473,7 @@
   {
     "name": "portal_resources",
     "display": "Unnatural Portal Resources",
-    "options": [
+    "items": [
       {
         "key": "bananabush_portalrate",
         "display": "Banana Bushes",
@@ -521,7 +521,7 @@
   {
     "name": "animals",
     "display": "Creatures",
-    "options": [
+    "items": [
       {
         "key": "bees_setting",
         "display": "Bees",
@@ -674,7 +674,7 @@
   {
     "name": "monsters",
     "display": "Hostile Creatures",
-    "options": [
+    "items": [
       {
         "key": "bats_setting",
         "display": "Bats",
@@ -834,7 +834,7 @@
   {
     "name": "giants",
     "display": "Giants",
-    "options": [
+    "items": [
       {
         "key": "antliontribute",
         "display": "Antlion Tribute",
